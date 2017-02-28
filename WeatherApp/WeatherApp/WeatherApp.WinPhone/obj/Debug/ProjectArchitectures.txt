@@ -1,0 +1,2 @@
+D:\projects\Xamarin\WeatherApp\WeatherApp\WeatherApp.WinPhone\WeatherApp.WinPhone.csproj;neutral
+D:\projects\Xamarin\WeatherApp\WeatherApp\WeatherApp\WeatherApp.csproj;neutral

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WeatherApp"
+             x:Class="WeatherApp.MainPage">
+  <ScrollView>
+<Grid >
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="60*"></ColumnDefinition>
+    <ColumnDefinition Width="200*"></ColumnDefinition>
+  </Grid.ColumnDefinitions> 
+  <Grid.RowDefinitions>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="100"></RowDefinition>
+    <RowDefinition Height="35"></RowDefinition>
+    <RowDefinition Height="50"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="40"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+    <RowDefinition Height="30"></RowDefinition>
+  </Grid.RowDefinitions>
+    <!--Button x:Name="ButtonAdd" Text="Add City" Grid.Column="0" Grid.Row="0" Clicked="ButtonAdd_OnClicked"></Button>
+    <Button x:Name="ButtonFavorites" Text="Open Favorites List" Grid.Column="1" Grid.Row="0" Clicked="ButtonFavorites_OnClicked"></Button>
+    <maps:Map x:Name="MapWeather" WidthRequest="320" HeightRequest="150" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+    </maps:Map!-->
+    <Entry x:Name="CitySearchText" Text="Lipetsk" Grid.Column="1" Grid.Row="2" ></Entry>
+    <Button x:Name="ButtonSearch" Text="Show Weather" Grid.Column="0" Grid.Row="2" Clicked="ButtonSearch_OnClicked" ></Button>
+    <Label x:Name="TextCity" Grid.Column="0" Grid.Row="3"></Label>
+    <Label x:Name="TextCountry" Grid.Column="1" Grid.Row="3"></Label>
+    <ContentView Grid.Column="0" Grid.Row="4">
+      <Image x:Name="IconImage" Aspect="AspectFit" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+    </ContentView>
+    <Label x:Name="TempTextBlock" Grid.Column="1" Grid.Row="4"></Label>
+    <Label x:Name="LabelCouldiness" Grid.Column="0" Grid.Row="5"></Label>
+    <Label x:Name="LabelGetTimeRequest" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2"></Label>
+    <Label Text="Wind" Grid.Column="0" Grid.Row="7" ></Label>
+    <Label x:Name="WindTextBlock" Grid.Column="1" Grid.Row="7" ></Label>
+    <Label Text="Cloudiness" Grid.Column="0" Grid.Row="8" ></Label>
+    <Label x:Name="CloudinessTextBlock" Grid.Column="1" Grid.Row="8" ></Label>
+    <Label Text="Pressure" Grid.Column="0" Grid.Row="9" ></Label>
+    <Label x:Name="PressureTextBlock" Grid.Column="1" Grid.Row="9" ></Label>
+    <Label Text="Humidity" Grid.Column="0" Grid.Row="10" ></Label>
+    <Label x:Name="HumidityTextBlock" Grid.Column="1" Grid.Row="10" ></Label>
+    <Label Text="Sunrise" Grid.Column="0" Grid.Row="11" ></Label>
+    <Label x:Name="SunriseTextBlock" Grid.Column="1" Grid.Row="11" ></Label>
+    <Label Text="Sunset" Grid.Column="0" Grid.Row="12" ></Label>
+    <Label x:Name="SunsetTextBlock" Grid.Column="1" Grid.Row="12" ></Label>
+  </Grid>
+  </ScrollView>  
+  
+
+</ContentPage>
