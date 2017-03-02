@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
 using WeatherApp.WeatherCore;
+using Xamarin.Forms.Maps;
 
 namespace WeatherApp
 {
@@ -57,6 +58,15 @@ namespace WeatherApp
             {
                 Uri = new System.Uri(weather.UriImg)
             };
+            MapWeather.MapType = MapType.Street;
+            Pin pin = new Pin();
+            Location loc = weather.Location;
+            Position position = new Position(loc.Latitude, loc.Longtitude);
+            pin.Position = position;
+            pin.Label = weather.Country;
+            MapWeather.Pins.Clear();
+            MapWeather.Pins.Insert(0, pin);
+            MapWeather.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromKilometers(15)));
             HumidityTextBlock.Text = weather.Humidity + " %";
             PressureTextBlock.Text = weather.Pressure + " hpa";
 
