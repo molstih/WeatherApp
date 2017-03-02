@@ -17,6 +17,9 @@ namespace WeatherApp {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Maps.Map MapWeather;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry CitySearchText;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -61,6 +64,7 @@ namespace WeatherApp {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
+            MapWeather = this.FindByName<global::Xamarin.Forms.Maps.Map>("MapWeather");
             CitySearchText = this.FindByName<global::Xamarin.Forms.Entry>("CitySearchText");
             ButtonSearch = this.FindByName<global::Xamarin.Forms.Button>("ButtonSearch");
             TextCity = this.FindByName<global::Xamarin.Forms.Label>("TextCity");
