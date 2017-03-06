@@ -48,5 +48,3 @@ D:\weatherapprepo\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
 D:\weatherapprepo\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb
 D:\weatherapprepo\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
 D:\weatherapprepo\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb
-D:\weatherapprepo\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
-D:\weatherapprepo\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb

@@ -2,7 +2,7 @@
   <ReferenceAssemblyList>
     <LocalAssembly PathName="d:\projects\xamarin\weatherapp\weatherapp\weatherapp.winphone\obj\debug\intermediatexaml\weatherapp.winphone.exe" HashGuid="13afb81c-61c8-a584-663e-1972deb3b16e" />
     <ReferenceAssembly PathName="d:\weatherapprepo\weatherapp\packages\newtonsoft.json.9.0.1\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="424e6aa8-ba94-c678-e707-af9fe9838e1a" />
-    <ReferenceAssembly PathName="d:\weatherapprepo\weatherapp\weatherapp\weatherapp\bin\debug\weatherapp.dll" HashGuid="d92a2d76-11ef-c801-6737-27ef7b536a29" />
+    <ReferenceAssembly PathName="d:\weatherapprepo\weatherapp\weatherapp\weatherapp\bin\debug\weatherapp.dll" HashGuid="23e6dd0e-55fd-35f8-3cac-fa585bd4c0de" />
     <ReferenceAssembly PathName="d:\weatherapprepo\weatherapp\packages\xamarin.forms.2.3.3.193\lib\wpa81\xamarin.forms.core.dll" HashGuid="c782f70f-077f-7e2d-5bd4-f6b5da067f8a" />
     <ReferenceAssembly PathName="d:\weatherapprepo\weatherapp\packages\xamarin.forms.maps.2.3.3.193\lib\wpa81\xamarin.forms.maps.dll" HashGuid="ed9c28df-835e-9228-f013-bb1216e25d67" />
     <ReferenceAssembly PathName="d:\weatherapprepo\weatherapp\packages\xamarin.forms.maps.2.3.3.193\lib\wpa81\xamarin.forms.maps.winrt.phone.dll" HashGuid="3135e740-c5f2-4d65-dc3f-ed8420117299" />

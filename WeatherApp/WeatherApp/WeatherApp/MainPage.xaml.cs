@@ -58,15 +58,13 @@ namespace WeatherApp
             {
                 Uri = new System.Uri(weather.UriImg)
             };
+            MapWeather = new Map(new MapSpan(new Position(weather.Location.Latitude, weather.Location.Longtitude), weather.Location.Latitude, weather.Location.Longtitude));
             MapWeather.MapType = MapType.Street;
             Pin pin = new Pin();
-            Location loc = weather.Location;
-            Position position = new Position(loc.Latitude, loc.Longtitude);
-            pin.Position = position;
+            pin.Position = new Position(weather.Location.Latitude, weather.Location.Longtitude);
             pin.Label = weather.Country;
-            MapWeather.Pins.Clear();
             MapWeather.Pins.Insert(0, pin);
-            MapWeather.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromKilometers(15)));
+            MapWeather.MoveToRegion(MapSpan.FromCenterAndRadius(pin.Position, Distance.FromKilometers(150)));
             HumidityTextBlock.Text = weather.Humidity + " %";
             PressureTextBlock.Text = weather.Pressure + " hpa";
 

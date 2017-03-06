@@ -13,7 +13,7 @@
   </Grid.ColumnDefinitions> 
   <Grid.RowDefinitions>
     <RowDefinition Height="30"></RowDefinition>
-    <RowDefinition Height="100"></RowDefinition>
+    <RowDefinition Height="*"></RowDefinition>
     <RowDefinition Height="35"></RowDefinition>
     <RowDefinition Height="50"></RowDefinition>
     <RowDefinition Height="30"></RowDefinition>
@@ -28,7 +28,7 @@
   </Grid.RowDefinitions>
     <!--Button x:Name="ButtonAdd" Text="Add City" Grid.Column="0" Grid.Row="0" Clicked="ButtonAdd_OnClicked"></Button>
     <Button x:Name="ButtonFavorites" Text="Open Favorites List" Grid.Column="1" Grid.Row="0" Clicked="ButtonFavorites_OnClicked"></Button!-->
-    <maps:Map x:Name="MapWeather" WidthRequest="320" HeightRequest="150" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+    <maps:Map x:Name="MapWeather" WidthRequest="320" HeightRequest="400" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
     </maps:Map>
     <Entry x:Name="CitySearchText" Text="Lipetsk" Grid.Column="1" Grid.Row="2" ></Entry>
     <Button x:Name="ButtonSearch" Text="Show Weather" Grid.Column="0" Grid.Row="2" Clicked="ButtonSearch_OnClicked" ></Button>

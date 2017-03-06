@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<!-- saved from url=(0185)https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207 -->
+<html lang="en" class="windows chrome"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="bb-bootstrap" data-current-user="{&quot;username&quot;: &quot;VadimLysikov&quot;, &quot;displayName&quot;: &quot;Vadim Lysikov&quot;, &quot;uuid&quot;: &quot;{5a090b2d-15d9-42c7-8d80-65b0578aadbb}&quot;, &quot;firstName&quot;: &quot;Vadim Lysikov&quot;, &quot;avatarUrl&quot;: &quot;https://bitbucket.org/account/VadimLysikov/avatar/32/?ts=1488639094&quot;, &quot;lastName&quot;: &quot;&quot;, &quot;isTeam&quot;: false, &quot;isSshEnabled&quot;: false, &quot;isKbdShortcutsEnabled&quot;: true, &quot;id&quot;: 6996511, &quot;isAuthenticated&quot;: true}" data-atlassian-id="557058:1889c1ed-75b3-417b-828d-7596a780b150">
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>
+  ds-mms / marking / wiki / Подключение к DanSteel через VPN - Windows 7 — Bitbucket
+</title>
+  <script type="text/javascript" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/a2cef8c3d3"></script><script src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/nr-1016.min.js.Без названия"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  
+
+
+<meta id="bb-canon-url" name="bb-canon-url" content="https://bitbucket.org">
+
+<meta name="bb-commit-hash" content="35f3118819e9">
+<meta name="bb-app-node" content="app-104">
+<meta name="bb-view-name" content="bitbucket.apps.wiki.views.wiki">
+<meta name="ignore-whitespace" content="False">
+<meta name="tab-size" content="None">
+<meta name="locale" content="en">
+
+<meta name="application-name" content="Bitbucket">
+<meta name="apple-mobile-web-app-title" content="Bitbucket">
+<meta name="theme-color" content="#205081">
+<meta name="msapplication-TileColor" content="#205081">
+<meta name="msapplication-TileImage" content="https://d301sr5gafysq2.cloudfront.net/35f3118819e9/img/logos/bitbucket/white-256.png">
+<link rel="apple-touch-icon" sizes="192x192" type="image/png" href="https://d301sr5gafysq2.cloudfront.net/35f3118819e9/img/bitbucket_avatar/192/bitbucket.png">
+<link rel="icon" sizes="192x192" type="image/png" href="https://d301sr5gafysq2.cloudfront.net/35f3118819e9/img/bitbucket_avatar/192/bitbucket.png">
+<link rel="icon" sizes="16x16 32x32" type="image/x-icon" href="https://bitbucket.org/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://bitbucket.org/opensearch.xml" title="Bitbucket">
+  <meta name="description" content="">
+  
+    
+  
+
+
+
+  <link rel="stylesheet" href="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/vendor.css">
+<link rel="stylesheet" href="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/app.css">
+
+
+
+
+  
+  <script src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/early.js.Без названия"></script>
+  
+  
+    <link href="https://bitbucket.org/ds-mms/marking/rss?token=67abef37cdbf7970cb0decbf56427ad5" rel="alternate nofollow" type="application/rss+xml" title="RSS feed for marking">
+  
+
+<style type="text/css"></style><style type="text/css"></style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._1FcDA7aKdYGnqon66EBy12{bottom:0;left:0;position:fixed;right:0;top:0;z-index:500}.XAEd_Ktk2PwuRiyBjKdfc{background:#091e42;opacity:.5}</style><style type="text/css">.V0PEb2CITwaKtwxf33OaB{display:-webkit-box;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;z-index:2;-webkit-box-flex:1;flex:1 0 auto}._2abBgcYeiububtIiVGRr2Z{height:100%;display:-webkit-box;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;position:fixed;left:0;z-index:300}</style><style type="text/css">._2r87if2ySO51kQ3j02OoLF{position:relative}._20aMohOkmv7UTsxgsDAdLb{-webkit-box-align:center;align-items:center;background:#0049b0;box-sizing:border-box;display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;height:100%;padding-bottom:0;padding:16px 0;position:fixed;width:64px}._3D8CDSVbwSvw-kjxuVyeFo ._20aMohOkmv7UTsxgsDAdLb{-webkit-transition:-webkit-transform .2s;transition:-webkit-transform .2s;transition:transform .2s;transition:transform .2s,-webkit-transform .2s}._2pnlgfGEKD6T14HtsgvYnf{margin-bottom:12px;margin-top:4px}._2Zoji9MPlDHZAS4XAeryEm{-webkit-box-flex:1;flex:1}._2sAz6R_eVV-uZbfUfLIFu{display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-align:center;align-items:center;padding-bottom:20px}</style><style type="text/css">._3jTrOMiJPte0hxwqQxqZIe._3y3wEUqtHO0k4Pq85xwCxk{-webkit-transition:width .2s;transition:width .2s}</style><style type="text/css">._1OiivnJHgXOJMtpXXdiT7Y{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;margin-top:12px}._2_A9DVRb4VpQ4ZVBuH_3V4{box-sizing:border-box;height:0;opacity:0;visibility:hidden;-webkit-transition:height .22s,margin .22s,opacity .22s;transition:height .22s,margin .22s,opacity .22s}._2_A9DVRb4VpQ4ZVBuH_3V4 .IDnnpQA7cuUwgFenlomGf{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column}._2_A9DVRb4VpQ4ZVBuH_3V4._39bqUh8ZOfnlEAr1pG5uLJ{height:132px;margin-bottom:28px;opacity:1;visibility:visible}</style><style type="text/css">._2Y9FNKqHaTrjcFDNdO24eA{-webkit-box-align:center;align-items:center;border-radius:50%;color:#fff;cursor:pointer;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center}._2Y9FNKqHaTrjcFDNdO24eA._2vGFJmPv8zWPr94FOVbkQB,._2Y9FNKqHaTrjcFDNdO24eA:focus,._2Y9FNKqHaTrjcFDNdO24eA:hover{background-color:rgba(9,30,66,.48)}._2Y9FNKqHaTrjcFDNdO24eA:active{background-color:#2684ff}._21U6ij71bEkOMaNZlD5PPq{height:32px;margin-top:8px;width:32px}._2h8cDGJYs0RmXBxz29eidX{height:40px;width:40px}._2aR2eRaDbgX9FirqScNZO4{height:48px;width:48px}.x620_I57-_qOvhIFLlP1t{color:#42526e}.x620_I57-_qOvhIFLlP1t:hover{background-color:rgba(9,30,66,.04)}.x620_I57-_qOvhIFLlP1t:active{color:#0049b0;background-color:#deebff}</style><style type="text/css">._2anM7Mkv5ybGZ9uBmtrP03{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;margin:0;background:none;border:none;border-radius:50%;padding:0;width:40px;height:40px;outline:none;color:#fff}._2anM7Mkv5ybGZ9uBmtrP03:focus{outline:none;box-shadow:0 0 0 2px #4c9aff}</style><style type="text/css"></style><style type="text/css"></style><style type="text/css">._3In8mibRVfHkJUAkpy3O7H{height:100%;position:fixed}.WPw2lpT3gfsxJ2Ix5KCq4 ._3In8mibRVfHkJUAkpy3O7H{-webkit-transition:width .2s,-webkit-transform .2s;transition:width .2s,-webkit-transform .2s;transition:width .2s,transform .2s;transition:width .2s,transform .2s,-webkit-transform .2s}._34ihDdPXzuw1xrF_-7aYSE{box-sizing:border-box;background:#f4f5f7;color:#42526e;width:100%;height:100vh;overflow-x:hidden;overflow-y:auto;padding:16px 8px 0}._34ihDdPXzuw1xrF_-7aYSE a,._34ihDdPXzuw1xrF_-7aYSE a:hover,._34ihDdPXzuw1xrF_-7aYSE a:visited{color:inherit;text-decoration:none}._34ihDdPXzuw1xrF_-7aYSE:not(._2gn365NmEtSMABPupSy6FR){padding-top:24px}._34ihDdPXzuw1xrF_-7aYSE._1ma832uGO4VkI8mdRp-c_6{background-color:#0049b0;color:#fff}</style><style type="text/css">._25scAckZu5s9IuMZ71dVro{display:none}.PMMlRA4Co0DDxl-KTma_d{background:#fff;box-shadow:-32px 0 32px 32px rgba(23,43,77,.24);color:#42526e;display:-webkit-box;display:flex;height:100%;left:0;overflow:hidden;position:fixed;-webkit-transform:translateX(-392px);transform:translateX(-392px);-webkit-transition:-webkit-transform .22s cubic-bezier(.15,1,.3,1);transition:-webkit-transform .22s cubic-bezier(.15,1,.3,1);transition:transform .22s cubic-bezier(.15,1,.3,1);transition:transform .22s cubic-bezier(.15,1,.3,1),-webkit-transform .22s cubic-bezier(.15,1,.3,1);width:360px}.PMMlRA4Co0DDxl-KTma_d:not(._2kHNe3YDUdPj4LKLJmbYUM){box-shadow:none}.PMMlRA4Co0DDxl-KTma_d._2Vl-O90kwvaUwLlVXUs8mN{width:600px;-webkit-transform:translateX(-632px);transform:translateX(-632px)}.PMMlRA4Co0DDxl-KTma_d._2kHNe3YDUdPj4LKLJmbYUM,.PMMlRA4Co0DDxl-KTma_d._2Vl-O90kwvaUwLlVXUs8mN._2kHNe3YDUdPj4LKLJmbYUM{-webkit-transform:translateX(0);transform:translateX(0)}._1baFF0CbmVCTMv8FT5XXak{-webkit-box-align:center;align-items:center;box-sizing:border-box;display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;padding:16px 0;width:64px}._1baFF0CbmVCTMv8FT5XXak ._1bx7uhzrkkhlR90n9q2HLV{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;height:40px;-webkit-box-pack:center;justify-content:center;width:40px}._1baFF0CbmVCTMv8FT5XXak ._3Zzzuy0iw1ok1o8ij0iN9I{padding-top:40px}._1baFF0CbmVCTMv8FT5XXak .m3H4wIyFc-G9jeyGbYeWC{margin-top:12px}._2X_3c8NIsaQQwCUPPye8_T{box-sizing:border-box;height:100%;overflow-y:auto;padding:16px 8px 0;width:calc(100% - 64px)}._2yQ9KbVIvBAoPnKjS3-hYw{-webkit-transition:-webkit-transform .22s cubic-bezier(.15,1,.3,1);transition:-webkit-transform .22s cubic-bezier(.15,1,.3,1);transition:transform .22s cubic-bezier(.15,1,.3,1);transition:transform .22s cubic-bezier(.15,1,.3,1),-webkit-transform .22s cubic-bezier(.15,1,.3,1);-webkit-transform:translateX(392px);transform:translateX(392px)}._2Vl-O90kwvaUwLlVXUs8mN ._2yQ9KbVIvBAoPnKjS3-hYw{-webkit-transform:translateX(632px);transform:translateX(632px)}._2kHNe3YDUdPj4LKLJmbYUM ._2yQ9KbVIvBAoPnKjS3-hYw,._2Vl-O90kwvaUwLlVXUs8mN._2kHNe3YDUdPj4LKLJmbYUM ._2yQ9KbVIvBAoPnKjS3-hYw{-webkit-transform:translateX(0);transform:translateX(0)}</style><style type="text/css">._2XnIbl1EZfPzcGnU7dl3Sy{background:#f4f5f7;border-radius:50%;color:#42526e;cursor:pointer;display:-webkit-box;display:flex;height:40px;-webkit-box-pack:center;justify-content:center;width:40px}._2XnIbl1EZfPzcGnU7dl3Sy:active{background:#deebff;color:#0052cc}._2XnIbl1EZfPzcGnU7dl3Sy .eWYuNYtwdcGChCkQw9Hh1{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;-webkit-transform:translatex(-16px);transform:translatex(-16px);-webkit-transition:-webkit-transform .22s;transition:-webkit-transform .22s;transition:transform .22s;transition:transform .22s,-webkit-transform .22s}._2XnIbl1EZfPzcGnU7dl3Sy._2gXwwi71--ZfnaBJB4w_uZ .eWYuNYtwdcGChCkQw9Hh1{-webkit-transform:translateX(0);transform:translateX(0)}</style><style type="text/css">._14PL0k0WWljAscCRL1KV5c{height:100%;width:12px;position:relative;left:-6px;cursor:col-resize}._14PL0k0WWljAscCRL1KV5c:hover:before{background:#2684ff}._14PL0k0WWljAscCRL1KV5c:before{content:'';width:2px;height:100%;position:absolute;left:5px}</style><style type="text/css">._2ckcI9D8yndaMv1DeHCkut{border-radius:3px}._2ckcI9D8yndaMv1DeHCkut.sgxuuX8v1yKYa7ikc_cMH,._2ckcI9D8yndaMv1DeHCkut:hover{background:rgba(9,30,66,.04)}._2ckcI9D8yndaMv1DeHCkut.sgxuuX8v1yKYa7ikc_cMH.n5aBe8OlnBGDoQyW26kWe,._2ckcI9D8yndaMv1DeHCkut:hover.n5aBe8OlnBGDoQyW26kWe{color:#fff;background:rgba(9,30,66,.25)}.sgxuuX8v1yKYa7ikc_cMH{color:#0052cc}</style><style type="text/css">._330V9-5-QyH9jXqaYd3B14{width:100%;height:40px;box-sizing:border-box;text-overflow:ellipsis;position:relative}._330V9-5-QyH9jXqaYd3B14 .NakNCPM1hh0-EyF5LXq1Z{padding:0}._330V9-5-QyH9jXqaYd3B14:hover ._330V9-5-QyH9jXqaYd3B14.NakNCPM1hh0-EyF5LXq1Z{padding:0}._330V9-5-QyH9jXqaYd3B14 a,._330V9-5-QyH9jXqaYd3B14 a:hover,._330V9-5-QyH9jXqaYd3B14 a:visited{color:inherit;text-decoration:none}._2Up75VIlYt57HSgx3JmRcv ._3ezvG6KX7KD96QiJxw2p80{padding-left:0;padding-right:8px}._2YnLj4sbOZuAzmsSGvRXlG{height:100%;width:100%;padding:0 8px;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;box-sizing:border-box}._2Up75VIlYt57HSgx3JmRcv{height:36px}._2Up75VIlYt57HSgx3JmRcv ._3lMClvFa3xbPOBpEojE30y{font-size:10px;line-height:12px}._19LqXM663I0lojRsO1R5QV:focus{display:block;height:100%;border-radius:3px}._19LqXM663I0lojRsO1R5QV:focus:focus{outline:none;box-shadow:0 0 0 2px #4c9aff}._11qGMzr_9Vyclz6rsD-VpE{display:-webkit-box;display:flex;height:100%;-webkit-box-pack:center;justify-content:center;position:absolute;right:8px;top:0}[data-__ak-navigation-container-closed=true] ._11qGMzr_9Vyclz6rsD-VpE{opacity:0}._3ezvG6KX7KD96QiJxw2p80{-webkit-transition:padding .2s;transition:padding .2s;padding:0 24px 0 12px;display:-webkit-box;display:flex}[data-__ak-navigation-container-closed=true] ._3ezvG6KX7KD96QiJxw2p80{padding:0 4px}._3ezvG6KX7KD96QiJxw2p80>*{width:24px;height:24px}._2P8wzLZUDUvCeYiPeKvhLH{min-width:24px}.ENSCR-zF3LTB9YWouLYFd{overflow-x:hidden;display:inline-block;-webkit-box-flex:1;flex-grow:1}[data-__ak-navigation-container-closed=true] .ENSCR-zF3LTB9YWouLYFd{opacity:0}.ENSCR-zF3LTB9YWouLYFd._393_uX2WUznYN-9R0Cn3Yv{margin-right:24px}._2eVO-zYU1LO9J29V8IK2Rk{overflow-x:hidden;text-overflow:ellipsis;white-space:nowrap}._3lMClvFa3xbPOBpEojE30y{color:#8993a4;font-size:.85714286em;overflow-x:hidden;text-overflow:ellipsis;white-space:nowrap}._1xexQQpNgoRij_YJPjLyS7{position:relative;z-index:1}[data-__ak-navigation-container-closed=true] ._1xexQQpNgoRij_YJPjLyS7{opacity:0}</style><style type="text/css">.eQvjIE-3SL6WKrdqGqcgm{display:-webkit-box;display:flex;margin-bottom:8px;margin-left:8px;margin-top:16px}[data-__ak-navigation-container-closed=true] .eQvjIE-3SL6WKrdqGqcgm{margin-left:4px;margin-right:4px;border-top:1px solid rgba(9,30,66,.13)}[data-__ak-navigation-container-closed=true] .eQvjIE-3SL6WKrdqGqcgm ._3cXhPp2pmCxHtpnu2UVRID,[data-__ak-navigation-container-closed=true] .eQvjIE-3SL6WKrdqGqcgm ._3rh8V5SOVEBnuyc2UrDoQC{visibility:hidden}._2tgoKUDKGa-RouuYB7cXxI{margin-top:24px}._3rh8V5SOVEBnuyc2UrDoQC{align-self:center;color:#8993a4;display:-webkit-box;display:flex;-webkit-box-flex:1;flex-grow:1;font-size:12px;text-transform:uppercase}._3cXhPp2pmCxHtpnu2UVRID{margin-right:8px}</style><style type="text/css">.eucTUnRZEqdMVOGlPoTLL{height:24px;margin:28px 0 28px 24px}</style><style type="text/css">._1B73BpZSd_3ioOcpM1VDfX{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;align-content:center;padding-top:4px}._1vEU6Fkfkt9YspJ3lMxeNr{color:#505f79;text-decoration:none;font-weight:500}._1vEU6Fkfkt9YspJ3lMxeNr:hover{color:#505f79;text-decoration:none}.r6iHH2RjZBI6rfZ2kFRm3>*{width:40px;height:40px;border-radius:4px}._3Xps6ZUTj9KT-l7sDtR408{margin-left:16px}</style><style type="text/css">._3QAXBpw1AKUFy1JOCtWWI2{display:-webkit-box;display:flex;position:relative}._2Hx9MBOP6D9jmRZ0vbeYsh{-webkit-animation-name:vuTQ2kLSu4lz8se2-_GeQ;animation-name:vuTQ2kLSu4lz8se2-_GeQ;-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}._3ucv31ru-CLy_Kh2JlMa3y{-webkit-transform:translateX(-100%);transform:translateX(-100%)}@-webkit-keyframes vuTQ2kLSu4lz8se2-_GeQ{0%{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}@keyframes vuTQ2kLSu4lz8se2-_GeQ{0%{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}._1eLte1hnXBf7TeC2vVgW5c{-webkit-animation-name:qcwQFj9B-upKRAzoeLzYo;animation-name:qcwQFj9B-upKRAzoeLzYo;-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}._2FzQVD_uMRcNqTG30pI2vg{-webkit-transform:translateX(0);transform:translateX(0)}@-webkit-keyframes qcwQFj9B-upKRAzoeLzYo{0%{-webkit-transform:translateX(-100%);transform:translateX(-100%)}to{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes qcwQFj9B-upKRAzoeLzYo{0%{-webkit-transform:translateX(-100%);transform:translateX(-100%)}to{-webkit-transform:translateX(0);transform:translateX(0)}}._3gO9w-SGL_xMp_UiAbd8Gp{-webkit-box-flex:1;flex:1 0 100%;overflow:hidden;box-sizing:border-box}</style><style type="text/css">._1xNoCK4OfNnpsNZtOFzz-p{color:#42526e;border-radius:3px}._1xNoCK4OfNnpsNZtOFzz-p:hover{background:rgba(9,30,66,.04)}._1xNoCK4OfNnpsNZtOFzz-p:active{background:#deebff;color:#0052cc}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._2Et3MIbNLMCORTiLb2gXd4{display:inline-block;position:relative}._3QMsFPr4jvjG1OyLjAmgj4{height:24px;width:24px}._3QMsFPr4jvjG1OyLjAmgj4 .ihJBu0-s7ZptT94hq8V0q{right:-2px;height:12px;bottom:-2px;width:12px}._3QMsFPr4jvjG1OyLjAmgj4 .oOyWqV2E87LvM3suQ2iFc{border-width:2px}._3vUiJVFEynCJoj9-3W73bV{height:32px;width:32px}._3vUiJVFEynCJoj9-3W73bV .ihJBu0-s7ZptT94hq8V0q{right:-2px;height:12px;bottom:-2px;width:12px}._3vUiJVFEynCJoj9-3W73bV .oOyWqV2E87LvM3suQ2iFc{border-width:2px}.f7edYntBlGrxlpeX3raXp{height:48px;width:48px}.f7edYntBlGrxlpeX3raXp .ihJBu0-s7ZptT94hq8V0q{right:-3px;height:18px;bottom:-3px;width:18px}.f7edYntBlGrxlpeX3raXp .oOyWqV2E87LvM3suQ2iFc{border-width:3px}._3pRqGrNC_AxqAuDJhzIK0j{height:96px;width:96px}._3pRqGrNC_AxqAuDJhzIK0j .ihJBu0-s7ZptT94hq8V0q{right:6px;height:18px;bottom:6px;width:18px}._3pRqGrNC_AxqAuDJhzIK0j .oOyWqV2E87LvM3suQ2iFc{border-width:3px}._1up3rerj2w2gG91XkdrIFV{align-content:center;-webkit-box-align:middle;align-items:middle;background-color:#dfe1e6;border-radius:100%;display:-webkit-box;display:flex;height:100%;overflow:hidden;width:100%;-webkit-transform:translateZ(0);transform:translateZ(0)}._1up3rerj2w2gG91XkdrIFV img{height:100%;width:100%;display:none}._1up3rerj2w2gG91XkdrIFV.tEjNxwlr8czqGUFoebeLo{background-color:transparent}._1up3rerj2w2gG91XkdrIFV.tEjNxwlr8czqGUFoebeLo img{display:inline-block}.ihJBu0-s7ZptT94hq8V0q{position:absolute}.oOyWqV2E87LvM3suQ2iFc{align-content:center;-webkit-box-align:middle;align-items:middle;border:2px solid #fff;border-radius:100%;box-sizing:border-box;display:-webkit-box;display:flex;height:100%;overflow:hidden;width:100%}.oOyWqV2E87LvM3suQ2iFc:empty{display:none}._2ruo7J2Pojll2puNdJEz9b{display:none}</style><style type="text/css">.mmCL9YFx-1K8cgG5kRSBS{-webkit-box-align:center;align-items:center;-ms-grid-row-align:center;align-self:center;flex-shrink:0;pointer-events:none;margin:0 4px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}._6CNJBd6aPdikf3F2DL7Fx{align-self:center;display:-webkit-box;display:flex;line-height:0;font-size:0;margin:0 4px}._6CNJBd6aPdikf3F2DL7Fx:first-child:nth-last-child(1){margin:0}._6CNJBd6aPdikf3F2DL7Fx+.mmCL9YFx-1K8cgG5kRSBS{-webkit-box-align:baseline;align-items:baseline;align-self:baseline}.lTxCSTbyqCVMPZ3Wl480{align-self:center;display:-webkit-inline-box;display:inline-flex;flex-wrap:nowrap;max-width:100%}._3RMZ2yT7AZZ1OJGkNxzLnT{-webkit-box-align:baseline;align-items:baseline;box-sizing:border-box;border-radius:3px;border-width:0;display:-webkit-inline-box;display:inline-flex;font-style:normal;font-size:inherit;height:2.28571429em;line-height:2.28571429em;margin:0;outline:none;padding:0 8px;text-align:center;-webkit-transition:background .1s ease-out,box-shadow .15s cubic-bezier(.47,.03,.49,1.38);transition:background .1s ease-out,box-shadow .15s cubic-bezier(.47,.03,.49,1.38);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;white-space:nowrap}._3RMZ2yT7AZZ1OJGkNxzLnT._1Lz3rWURLghHt9ej_g4ceP{height:1.71428571em;line-height:1.71428571em}._3RMZ2yT7AZZ1OJGkNxzLnT._1PgByua8dEpRjQqQ_SuKJP{height:auto;line-height:normal;padding:0}._3RMZ2yT7AZZ1OJGkNxzLnT._1PgByua8dEpRjQqQ_SuKJP .mmCL9YFx-1K8cgG5kRSBS{margin:0}._3RMZ2yT7AZZ1OJGkNxzLnT._1PgByua8dEpRjQqQ_SuKJP ._6CNJBd6aPdikf3F2DL7Fx{margin:0}._3RMZ2yT7AZZ1OJGkNxzLnT::-moz-focus-inner{border:0;margin:0;padding:0}._3RMZ2yT7AZZ1OJGkNxzLnT:hover{cursor:pointer;-webkit-transition:background 0s ease-out,box-shadow .15s cubic-bezier(.47,.03,.49,1.38);transition:background 0s ease-out,box-shadow .15s cubic-bezier(.47,.03,.49,1.38)}._3RMZ2yT7AZZ1OJGkNxzLnT:active{-webkit-transition-duration:0s;transition-duration:0s}._3RMZ2yT7AZZ1OJGkNxzLnT:focus{outline:none;-webkit-transition-duration:0s,.2s;transition-duration:0s,.2s}._3RMZ2yT7AZZ1OJGkNxzLnT._7cE_gcTfj2Scn2gxMq15h,._3RMZ2yT7AZZ1OJGkNxzLnT[disabled]{pointer-events:none;cursor:not-allowed}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy{background:rgba(9,30,66,.04);color:#505f79;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy ._1kxI-yCBoRraOvP_sMG__Y{background:rgba(9,30,66,.04);color:#505f79}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy .cyycXMGqNqRB9eBFt-sAt{background:rgba(9,30,66,.08)}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy .n5y79crgGYCDwM01sFs9b{background:rgba(179,212,255,.6);color:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy:hover{background:rgba(9,30,66,.08)}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy:active{background:rgba(179,212,255,.6);color:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._1FI5mP3Rksu3FM9TO04kSy:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW{background:none;color:#505f79;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#505f79}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW .cyycXMGqNqRB9eBFt-sAt{background:rgba(9,30,66,.08)}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW .n5y79crgGYCDwM01sFs9b{background:rgba(179,212,255,.6);color:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW:hover{background:rgba(9,30,66,.08)}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW:active{background:rgba(179,212,255,.6);color:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._16gCA6Pp4O8VhOMK3ZPhGW:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj{background:#0052cc;color:#fff;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj ._1kxI-yCBoRraOvP_sMG__Y{background:#0052cc;color:#fff}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj .cyycXMGqNqRB9eBFt-sAt{background:#0065ff}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj .n5y79crgGYCDwM01sFs9b{background:#0049b0;color:#fff}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj:hover{background:#0065ff}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj:active{background:#0049b0;color:#fff}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h{background:#0052cc;color:hsla(0,0%,100%,.5);text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:#0052cc;color:hsla(0,0%,100%,.5)}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:#0052cc;color:hsla(0,0%,100%,.5)}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h:hover{background:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h:active{background:#0052cc;color:hsla(0,0%,100%,.5)}.ebYSOP-tOWPyLz3y0JhdC._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h{background:rgba(9,30,66,.04);color:#a5adba;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:rgba(9,30,66,.04);color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:rgba(9,30,66,.04)}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:rgba(9,30,66,.04);color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h:hover{background:rgba(9,30,66,.04)}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h:active{background:rgba(9,30,66,.04);color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR{background:#253858;color:#f4f5f7;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR ._1kxI-yCBoRraOvP_sMG__Y{background:#253858;color:#f4f5f7}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR .cyycXMGqNqRB9eBFt-sAt{background:#253858}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR .n5y79crgGYCDwM01sFs9b{background:#253858;color:#f4f5f7}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR:hover{background:#253858}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR:active{background:#253858;color:#f4f5f7}.ebYSOP-tOWPyLz3y0JhdC._3sFTk9ZvhazuhyJnRRM0DR:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s{background:none;color:#0052cc;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#0052cc}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s .cyycXMGqNqRB9eBFt-sAt{background:none;color:#0065ff;text-decoration:underline}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s .n5y79crgGYCDwM01sFs9b{text-decoration:none;background:none;color:#0049b0}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s:hover{background:none;color:#0065ff;text-decoration:underline}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s:active{text-decoration:none;background:none;color:#0049b0}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h{background:none;color:#a5adba;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:none}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:none;color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h:hover{background:none}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h:active{background:none;color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo{background:none;color:#42526e;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#42526e}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo .cyycXMGqNqRB9eBFt-sAt{background:none;color:#0065ff;text-decoration:underline}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo .n5y79crgGYCDwM01sFs9b{text-decoration:none;background:none;color:#0049b0}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo:hover{background:none;color:#0065ff;text-decoration:underline}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo:active{text-decoration:none;background:none;color:#0049b0}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h{background:none;color:#a5adba;text-decoration:none}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:none}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:none;color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h:hover{background:none}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h:active{background:none;color:#a5adba}.ebYSOP-tOWPyLz3y0JhdC.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy{background:hsla(0,0%,100%,.08);color:#fff;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy ._1kxI-yCBoRraOvP_sMG__Y{background:hsla(0,0%,100%,.08);color:#fff}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy .cyycXMGqNqRB9eBFt-sAt{background:hsla(0,0%,100%,.12)}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy .n5y79crgGYCDwM01sFs9b{background:rgba(76,154,255,.32);color:#fff}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy:hover{background:hsla(0,0%,100%,.12)}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy:active{background:rgba(76,154,255,.32);color:#fff}._1m6WckfjvZaumd_HKxZaQ3._1FI5mP3Rksu3FM9TO04kSy:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW{background:none;color:#fff;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#fff}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW .cyycXMGqNqRB9eBFt-sAt{background:hsla(0,0%,100%,.12)}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW .n5y79crgGYCDwM01sFs9b{background:rgba(76,154,255,.32);color:#fff}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW:hover{background:hsla(0,0%,100%,.12)}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW:active{background:rgba(76,154,255,.32);color:#fff}._1m6WckfjvZaumd_HKxZaQ3._16gCA6Pp4O8VhOMK3ZPhGW:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj{background:#2684ff;color:#fff;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj ._1kxI-yCBoRraOvP_sMG__Y{background:#2684ff;color:#fff}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj .cyycXMGqNqRB9eBFt-sAt{background:#0065ff}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj .n5y79crgGYCDwM01sFs9b{background:#0052cc;color:#fff}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj:hover{background:#0065ff}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj:active{background:#0052cc;color:#fff}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h{background:#0052cc;color:hsla(0,0%,100%,.5);text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:#0052cc;color:hsla(0,0%,100%,.5)}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:#0052cc}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:#0052cc;color:hsla(0,0%,100%,.5)}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h:hover{background:#0052cc}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h:active{background:#0052cc;color:hsla(0,0%,100%,.5)}._1m6WckfjvZaumd_HKxZaQ3._3nh-b81CWRAqahHhOjKCHj._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h{background:hsla(0,0%,100%,.04);color:#7a869a;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:hsla(0,0%,100%,.04);color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:hsla(0,0%,100%,.04)}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:hsla(0,0%,100%,.04);color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h:hover{background:hsla(0,0%,100%,.04)}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h:active{background:hsla(0,0%,100%,.04);color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR{background:#f4f5f7;color:#253858;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR ._1kxI-yCBoRraOvP_sMG__Y{background:#f4f5f7;color:#253858}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR .cyycXMGqNqRB9eBFt-sAt{background:#f4f5f7}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR .n5y79crgGYCDwM01sFs9b{background:#f4f5f7;color:#253858}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR:hover{background:#f4f5f7}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR:active{background:#f4f5f7;color:#253858}._1m6WckfjvZaumd_HKxZaQ3._3sFTk9ZvhazuhyJnRRM0DR:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s{background:none;color:#b3d4ff;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#b3d4ff}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s .cyycXMGqNqRB9eBFt-sAt{background:none;color:#deebff;text-decoration:underline}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s .n5y79crgGYCDwM01sFs9b{background:none;text-decoration:underline;color:#4c9aff}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s:hover{background:none;color:#deebff;text-decoration:underline}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s:active{background:none;text-decoration:underline;color:#4c9aff}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h{background:none;color:#7a869a;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:none}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:none;color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h:hover{background:none}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h:active{background:none;color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3._2nJ5PdtNWpR-1BZVlmDY-s._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo{background:none;color:#b3d4ff;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#b3d4ff}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo .cyycXMGqNqRB9eBFt-sAt{background:none;color:#deebff;text-decoration:underline}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo .n5y79crgGYCDwM01sFs9b{background:none;text-decoration:underline;color:#4c9aff}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo:hover{background:none;color:#deebff;text-decoration:underline}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo:active{background:none;text-decoration:underline;color:#4c9aff}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h{background:none;color:#7a869a;text-decoration:none}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h ._1kxI-yCBoRraOvP_sMG__Y{background:none;color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h .cyycXMGqNqRB9eBFt-sAt{background:none}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h .n5y79crgGYCDwM01sFs9b{background:none;color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h:hover{background:none}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h:active{background:none;color:#7a869a}._1m6WckfjvZaumd_HKxZaQ3.CTBrRybzXIQ23GTNXATVo._7cE_gcTfj2Scn2gxMq15h:focus{box-shadow:0 0 0 2px rgba(38,132,255,.6)}</style><style type="text/css">._1M6CBD2a_ICnvtPIBrGtfz{display:-webkit-inline-box;display:inline-flex}._3BeGYOQyZchOnZ8PVQquOY{-webkit-box-flex:1;flex:1 1 auto}._3BeGYOQyZchOnZ8PVQquOY ._2Jm9TuaFJ-2IyegTvr4RoK{display:block;box-sizing:border-box}._2Jm9TuaFJ-2IyegTvr4RoK{display:-webkit-box;display:flex;width:100%;-webkit-transition:box-shadow .15s cubic-bezier(.47,.03,.49,1.38);transition:box-shadow .15s cubic-bezier(.47,.03,.49,1.38);-webkit-transition-duration:.2s;transition-duration:.2s;cursor:pointer}._2Jm9TuaFJ-2IyegTvr4RoK:focus{outline:none;box-shadow:0 0 0 2px #4c9aff}</style><style type="text/css">._3ud8gANgTopHV3oTLf5DXv{background:#fff;border-radius:3px;box-shadow:0 4px 8px -2px rgba(9,30,66,.25),0 0 1px rgba(9,30,66,.31);box-sizing:border-box;overflow-y:auto;padding:8px 0}._2pJYegupEJPQsMdbYjh2Cz{display:-webkit-box;display:flex;width:100%}._1GxTRgFCL1UtCzYYl_Rgx5{display:-webkit-inline-box;display:inline-flex}._2l9L_pJGPMn5zehmmnRrxq{display:block;-webkit-box-flex:1;flex:1 1 auto}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">.hkorbE77-s5njgrXzD4xr{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;flex-wrap:nowrap;box-sizing:border-box;font-size:14px;font-weight:400;line-height:1;padding:0 16px;text-decoration:none;color:#172b4d;cursor:pointer}.hkorbE77-s5njgrXzD4xr:hover{background-color:#f4f5f7;text-decoration:none;color:#172b4d}.hkorbE77-s5njgrXzD4xr:hover .k1688fZ2DIDWM86amG4g0{color:rgba(137,147,164,.48);fill:transparent}.hkorbE77-s5njgrXzD4xr:hover._3HBVHhUrXDYChPV6saN2j .k1688fZ2DIDWM86amG4g0{color:#0052cc;fill:#fff}.hkorbE77-s5njgrXzD4xr:hover._2tqa6fZDCqzKIZMSolNRcD{background-color:#fff}.hkorbE77-s5njgrXzD4xr:active{background-color:#deebff;color:#172b4d}.hkorbE77-s5njgrXzD4xr:active .k1688fZ2DIDWM86amG4g0{color:rgba(137,147,164,.48);fill:transparent}.hkorbE77-s5njgrXzD4xr:active._3HBVHhUrXDYChPV6saN2j .k1688fZ2DIDWM86amG4g0{color:#0052cc;fill:#fff}.hkorbE77-s5njgrXzD4xr._1dCTmOYVV08jDFSU3iI7JF{display:none}.hkorbE77-s5njgrXzD4xr._3HBVHhUrXDYChPV6saN2j .k1688fZ2DIDWM86amG4g0{color:#0052cc;fill:#fff}.hkorbE77-s5njgrXzD4xr._3YJTyxGcYtFfLnmRQDUUsv,.hkorbE77-s5njgrXzD4xr:focus{box-shadow:inset 0 0 0 2px #4c9aff;outline:none;outline-offset:0;position:relative}.hkorbE77-s5njgrXzD4xr._21BTeTuM8dUPHbM3GA0KoH{background-color:#f4f5f7;color:#172b4d}.hkorbE77-s5njgrXzD4xr._2tqa6fZDCqzKIZMSolNRcD{color:#a5adba;cursor:not-allowed}.hkorbE77-s5njgrXzD4xr._2tqa6fZDCqzKIZMSolNRcD .k1688fZ2DIDWM86amG4g0{color:#344563;fill:transparent}.hkorbE77-s5njgrXzD4xr._2tqa6fZDCqzKIZMSolNRcD._3HBVHhUrXDYChPV6saN2j .k1688fZ2DIDWM86amG4g0{color:#344563;fill:#253858}.xNhJIr4ng9rB4YS65vnV2{display:-webkit-box;display:flex}._3qDlWV1g3tGdTvkenZomL1{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center}.k1688fZ2DIDWM86amG4g0{margin:0 8px;display:-webkit-box;display:flex;color:#f4f5f7;fill:#f4f5f7}.k1688fZ2DIDWM86amG4g0+.qSoE6NpUH6VMsxcLZ2G_G{margin:0}._27XBTrYZnWY5Yi9dLF88W9{-webkit-box-flex:1;flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 8px;padding:9px 0}._27XBTrYZnWY5Yi9dLF88W9:first-child{margin:0}._3ZpNM3FQiqnAZ6mjpziGuM{color:#6c798f}</style><style type="text/css">._1gUb4lpa-DEge7IlWLkdoC{box-sizing:border-box;display:block;margin-top:8px}._1gUb4lpa-DEge7IlWLkdoC:first-child{margin-top:0}.YP0b7qQuoC5zMu_5aEFeu{-webkit-box-align:baseline;align-items:baseline;color:#5e6c84;display:-webkit-box;display:flex;-webkit-box-flex:1;flex:1 1 auto;font-weight:400;font-size:14px;line-height:1;margin:0;padding:8px 16px}._1Bu7VPZ9aokPsq1VlVBs-q{-webkit-box-flex:0;flex:0 0 auto}._1X4QAstCSOKelfsN11q4LO{-webkit-box-flex:1;flex:1 1 auto;font-size:12px;text-transform:uppercase}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">.gpM539yByronJWSogFOaQ{padding:9px 7px;background-color:#fafbfc;border:1px solid #f4f5f7;border-radius:5px;box-sizing:border-box;display:-webkit-box;display:flex;-webkit-box-flex:0;flex:0 1 auto;font-size:14px;-webkit-box-pack:justify;justify-content:space-between;line-height:1.42857143;max-width:100%;min-height:20px;overflow:hidden;-webkit-transition:background-color .2s ease-in-out,border-color .2s ease-in-out;transition:background-color .2s ease-in-out,border-color .2s ease-in-out;word-wrap:break-word}.gpM539yByronJWSogFOaQ.Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ._2DJov3OXXjicVQQZCse99X{-webkit-box-flex:1;flex:1 1 auto}.gpM539yByronJWSogFOaQ._1cPnLlJPrciGNTEd3e88_0{border-width:1px;padding:5px 7px}.gpM539yByronJWSogFOaQ._1cPnLlJPrciGNTEd3e88_0.Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ.kVdL5bWWXMvBlTbDGStR2{border-width:0;padding:10px 8px;background-color:transparent}.gpM539yByronJWSogFOaQ.kVdL5bWWXMvBlTbDGStR2.Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ.NJombwP1VgHHNa_m3DLtO{background-color:transparent;border:none}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO):hover:not(._3nf0Ulz75XxmegyoFjMpuj){background-color:#f4f5f7;border-color:#f4f5f7}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3DtorWMkSno_zmu3rwYap5{background-color:#f4f5f7;border-color:rgba(9,30,66,.04);color:#b3bac5;cursor:not-allowed}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._1ERTC4Unhzz0UTwQcui3by:not(._3nf0Ulz75XxmegyoFjMpuj){border-width:2px;padding:8px 6px;background-color:#fff;border-color:#4c9aff}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._1ERTC4Unhzz0UTwQcui3by:not(._3nf0Ulz75XxmegyoFjMpuj).Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._1ERTC4Unhzz0UTwQcui3by:not(._3nf0Ulz75XxmegyoFjMpuj)._1cPnLlJPrciGNTEd3e88_0{border-width:2px;padding:4px 6px}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._1ERTC4Unhzz0UTwQcui3by:not(._3nf0Ulz75XxmegyoFjMpuj)._1cPnLlJPrciGNTEd3e88_0.Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._1ERTC4Unhzz0UTwQcui3by:not(._3nf0Ulz75XxmegyoFjMpuj).Vq2mOO7ql8P55r46A8d8i{margin:-1px}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3wWJsNv32ItRjYzeYIs4mg{border-width:2px;padding:8px 6px;border-color:#ff8f73}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3wWJsNv32ItRjYzeYIs4mg.Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3wWJsNv32ItRjYzeYIs4mg._1cPnLlJPrciGNTEd3e88_0{border-width:2px;padding:4px 6px}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3wWJsNv32ItRjYzeYIs4mg._1cPnLlJPrciGNTEd3e88_0.Vq2mOO7ql8P55r46A8d8i{padding:0}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3wWJsNv32ItRjYzeYIs4mg:hover{background-color:transparent;border-color:#ff8f73}.gpM539yByronJWSogFOaQ:not(.NJombwP1VgHHNa_m3DLtO)._3wWJsNv32ItRjYzeYIs4mg.Vq2mOO7ql8P55r46A8d8i{margin:-1px}._1RshDFaudSKNrL3fXmUxZT{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;max-width:100%}._1RshDFaudSKNrL3fXmUxZT._2DJov3OXXjicVQQZCse99X{-webkit-box-flex:1;flex:1 1 auto}._6gGCY_Wh3sM8s4xm2KtU-{-webkit-box-align:center;align-items:center;color:#ff8f73;display:-webkit-box;display:flex;padding-left:8px;padding-right:4px}._180OQG3x8eO5bN71VNHDv1{display:block}._1N94Sig7psIp28uBIPWdFM{color:#6c798f;font-size:12px;line-height:1;padding:0;margin-bottom:4px;margin-top:20px}._1N94Sig7psIp28uBIPWdFM._31YrqXTnuHJlKoTH6hbVtT{margin-top:0}._1N94Sig7psIp28uBIPWdFM._26gBqQmpEG9mnQgNikUSeG{font-weight:600;line-height:1.33333333;padding:8px 0 0 8px;margin-bottom:0;margin-top:0}._2v5DTSu0XR37KGEOc9P_ZJ{display:none}.APBcEAwfZ0JjX9Z2RwRZz{padding-left:2px}</style><style type="text/css">._2tGgVD7noDhRqBIDyJ5PK6{background:transparent;border:0;box-sizing:border-box;color:inherit;cursor:inherit;font-size:14px;outline:none;width:100%}._2tGgVD7noDhRqBIDyJ5PK6:invalid{box-shadow:none}</style><style type="text/css">._3KgM5tB7A8DGBEc-R6jNI_{height:100%;left:0;position:fixed;top:0;width:100%;z-index:500}._1kWbWHkcEApMUdAFTqqXZd{display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;max-width:calc(100% - 120px);margin:0 auto;height:calc(100% - 120px);margin-top:60px;position:relative;z-index:510}._1kWbWHkcEApMUdAFTqqXZd._2UjSFb1KUhS02Uxb7N5ZuB{width:400px}._1kWbWHkcEApMUdAFTqqXZd.PxoJqDNFjzGHtsMm2PbMV{width:600px}._1kWbWHkcEApMUdAFTqqXZd._1ok1FNj2c0RRmvQD_dkJB-{width:800px}._1kWbWHkcEApMUdAFTqqXZd._2JctrIpnA4lb5bLY4sYpst{width:968px}._1kWbWHkcEApMUdAFTqqXZd ._3pYf6JmSPK7zzzBAuNT02r{-webkit-box-flex:0;flex:0 0 auto;padding:16px;box-shadow:0 0 0 transparent,0 0 0 transparent;background-color:#fff;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:0;border-bottom-right-radius:0}._1kWbWHkcEApMUdAFTqqXZd ._3DDquGqNAnFQOOc445QOoC{-webkit-box-flex:0;flex:0 1 auto;overflow:auto;box-sizing:border-box;padding:0 16px;position:relative;box-shadow:inset 0 2px 0 0 #ebecf0,inset 0 -2px 0 0 #ebecf0;background-color:#fff;border-top-left-radius:0;border-top-right-radius:0;border-bottom-left-radius:0;border-bottom-right-radius:0}._1kWbWHkcEApMUdAFTqqXZd ._3DDquGqNAnFQOOc445QOoC:before{background:#fff;content:"";display:block;height:2px;left:0;position:absolute;right:0;top:0}._1kWbWHkcEApMUdAFTqqXZd ._3DDquGqNAnFQOOc445QOoC:after{background:#fff;content:"";display:block;height:2px;margin-right:-16px;margin-left:-16px}._1kWbWHkcEApMUdAFTqqXZd ._2FLklJSrM6sucKa23q1VQK{-webkit-box-flex:0;flex:0 0 auto;padding:16px;box-shadow:0 0 0 transparent,0 0 0 transparent;background-color:#fff;border-top-left-radius:0;border-top-right-radius:0;border-bottom-left-radius:4px;border-bottom-right-radius:4px}</style><style type="text/css">._3edJcM1AhAfZfkXm4O6SlR{align-items:center;display:inline-flex;justify-content:center;line-height:1}._1nsUFtuF_xQWnNKWDPqbV0{height:20px;width:20px}._1nsUFtuF_xQWnNKWDPqbV0 ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._2BA0sHJeSgE_UaYRa5HJfQ{height:30px;width:30px}._2BA0sHJeSgE_UaYRa5HJfQ ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._30oeqoDrA_AkV6RRmnwcFs{height:50px;width:50px}._30oeqoDrA_AkV6RRmnwcFs ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1Jh9gLlanbiwcXfnulhGjI{height:100px;width:100px}._1Jh9gLlanbiwcXfnulhGjI ._1CglxoEYqlornIhrTO3dC6{height:100%;width:100%}._1CglxoEYqlornIhrTO3dC6{overflow:hidden;max-height:100%;max-width:100%;vertical-align:bottom}</style><style type="text/css">._2aLep88IoY3TWVaa8j3Rq-{display:inline-block}._2aLep88IoY3TWVaa8j3Rq-._1H83plicqplDNcuZlkHsuq{display:block}._24H80zVfTHc9KOdgPYA2ML{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;width:100%}._2JZg5kJf8oB6TtLtP5LGf6{-webkit-box-flex:1;flex:1 1 auto;margin:6px 8px;white-space:nowrap}._2olVSTbRCbHzmyYkIW14gC{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;-webkit-box-flex:0;flex:0 0 24px;-webkit-box-pack:center;justify-content:center;margin:0 8px}</style></head>
+<body class="production aui-page-sidebar aui-sidebar-expanded" data-static-url="https://d301sr5gafysq2.cloudfront.net/35f3118819e9/" data-base-url="https://bitbucket.org" data-base-api-url="https://api.bitbucket.org" data-no-avatar-image="img/default_avatar/user_blue.svg" data-current-user="{&quot;username&quot;: &quot;VadimLysikov&quot;, &quot;displayName&quot;: &quot;Vadim Lysikov&quot;, &quot;uuid&quot;: &quot;{5a090b2d-15d9-42c7-8d80-65b0578aadbb}&quot;, &quot;firstName&quot;: &quot;Vadim Lysikov&quot;, &quot;avatarUrl&quot;: &quot;https://bitbucket.org/account/VadimLysikov/avatar/32/?ts=1488639094&quot;, &quot;lastName&quot;: &quot;&quot;, &quot;isTeam&quot;: false, &quot;isSshEnabled&quot;: false, &quot;isKbdShortcutsEnabled&quot;: true, &quot;id&quot;: 6996511, &quot;isAuthenticated&quot;: true}" data-atlassian-id="{&quot;loginStatusUrl&quot;: &quot;https://id.atlassian.com/profile/rest/profile&quot;}" data-settings="{&quot;MENTIONS_MIN_QUERY_LENGTH&quot;: 3}" data-apitoken="TSn4ilUCey4QMTSKrtOpk5DVRoOxQQxUj860is_HYzwdp5J-cEBObb9YTm1-GiAGnLpeR7jkNLrdnDb6RQbvqekS2hbkTA==" data-current-repo="{&quot;scm&quot;: &quot;git&quot;, &quot;readOnly&quot;: false, &quot;mainbranch&quot;: {&quot;name&quot;: &quot;master&quot;}, &quot;language&quot;: &quot;c#&quot;, &quot;owner&quot;: {&quot;username&quot;: &quot;ds-mms&quot;, &quot;uuid&quot;: &quot;871268ba-f96d-4a14-9984-9092c13bb29d&quot;, &quot;isTeam&quot;: true}, &quot;fullslug&quot;: &quot;ds-mms/marking&quot;, &quot;slug&quot;: &quot;marking&quot;, &quot;id&quot;: 22305617, &quot;pygmentsLanguage&quot;: &quot;c#&quot;}" data-browser-monitoring="true" data-switch-create-pullrequest-commit-status="true" data-hide-inbox="true" data-aui-version="5.9.4">
+<div id="page">
+  
+    
+    <div id="wrapper">
+      
+  
+
+
+      
+        <header id="header" role="banner" data-module="header/tracking">
+          
+  
+
+
+          <nav class="aui-header aui-dropdown2-trigger-group" role="navigation" data-aui-responsive="true">
+            <div class="aui-header-inner">
+              <div class="aui-header-primary">
+                
+  
+  <div class="aui-header-before">
+    <button class="app-switcher-trigger aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-controls="app-switcher" aria-haspopup="true" tabindex="0" data-nav-links-count="0" resolved="" aria-expanded="false" href="#">
+      <span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked applications</span>
+    </button>
+    
+      <nav id="app-switcher" class="aui-dropdown2 aui-style-default aui-layer" resolved="" aria-hidden="true">
+        <div class="aui-dropdown2-section blank-slate">
+          <h2>Connect Bitbucket with other great Atlassian products:</h2>
+          <dl>
+            <dt class="jira">JIRA</dt>
+            <dd>Project and issue tracking</dd>
+            <dt class="confluence">Confluence</dt>
+            <dd>Collaboration and content sharing</dd>
+            <dt class="bamboo">Bamboo</dt>
+            <dd>Continuous integration</dd>
+          </dl>
+          <ul>
+            <li>
+              <a href="https://www.atlassian.com/ondemand/signup/?product=jira-software.ondemand&amp;utm_source=bitbucket&amp;utm_medium=button&amp;utm_campaign=app_switcher&amp;utm_content=trial_button" class="aui-button aui-button-primary" target="_blank" id="ondemand-trial" data-ct="header.app.switcher.dropdown.trial" resolved="">Free trial</a>
+            </li>
+            <li>
+              <a href="https://www.atlassian.com/software?utm_source=bitbucket&amp;utm_medium=button&amp;utm_campaign=app_switcher&amp;utm_content=learn_more_button#cloud-products" class="aui-button" target="_blank" id="ondemand-learn-more" data-ct="header.app.switcher.dropdown.learnmore" resolved="">Learn more</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+  </div>
+
+
+                
+                  <h1 class="aui-header-logo aui-header-logo-bitbucket " id="logo">
+                    <a href="https://bitbucket.org/" title="( type g then d )">
+                      <span class="aui-header-logo-device">Bitbucket</span>
+                    </a>
+                  </h1>
+                
+                
+  
+
+    
+    
+  
+
+    
+    
+  
+<ul class="aui-nav" style="width: auto;" resolved="">
+  
+    <li>
+      
+    
+    
+  
+      <a class="aui-dropdown2-trigger" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" id="teams-dropdown-trigger" data-module="header/teams-dropdown" aria-haspopup="true" resolved="" aria-controls="teams-dropdown" aria-expanded="false">
+        Teams
+        <span class="aui-icon-dropdown"></span>
+      </a>
+      <div id="teams-dropdown" class="aui-dropdown2 aui-style-default aui-layer" resolved="" aria-hidden="true">
+        <div class="aui-dropdown2-section nav-dropdown--blank-state">
+          <p>
+            Effective collaboration starts with teams and projects.
+          </p>
+          <ul>
+            <li>
+              <a class="aui-button aui-button-link nav-dropdown--blank-state--cta nav-dropdown--blank-state--link" id="create-team-blank-slate" data-ct="header.team.dropdown.create" data-ct-data="{&quot;empty&quot;: true}" href="https://bitbucket.org/account/create-team/?team_source=menu_blank" resolved="">Create a team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      
+    
+    
+  
+      <a class="aui-dropdown2-trigger" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" id="projects-dropdown-trigger" data-module="header/projects-dropdown" aria-haspopup="true" resolved="" aria-controls="projects-dropdown" aria-expanded="false">
+        Projects
+        <span class="aui-icon-dropdown"></span>
+      </a>
+      <div id="projects-dropdown" class="aui-dropdown2 aui-style-default aui-layer" resolved="" aria-hidden="true">
+        <div class="aui-dropdown2-section nav-dropdown--blank-state">
+          <p>
+            
+              Get a team, get projects, get organized.
+            
+          </p>
+          <ul>
+            <li>
+              <a class="aui-button aui-button-link nav-dropdown--blank-state--cta nav-dropdown--blank-state--link" id="projects-create-team-blank-slate" href="https://bitbucket.org/account/create-team/?team_source=menu_blank" resolved="">Create a team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a class="aui-dropdown2-trigger" id="repositories-dropdown-trigger" aria-haspopup="true" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" resolved="" aria-controls="repo-dropdown" aria-expanded="false">
+        Repositories
+        <span class="aui-icon-dropdown"></span>
+      </a>
+      <nav id="repo-dropdown" class="aui-dropdown2 aui-style-default aui-layer" resolved="" aria-hidden="true">
+        <div id="repo-dropdown-recent" data-module="header/recent-repos"></div>
+        <div class="aui-dropdown2-section">
+          <ul>
+            <li>
+              <a href="https://bitbucket.org/repo/create" class="new-repository" id="create-repo-link" data-ct="header.repository.dropdown.create" title="( type c then r )">
+                Create repository
+              </a>
+            </li>
+            <li>
+              <a href="https://bitbucket.org/repo/import" class="import-repository" id="import-repo-link" data-ct="header.repository.dropdown.import" title="( type i then r )">
+                Import repository
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </li>
+    <li>
+      <a class="aui-dropdown2-trigger" id="snippets-dropdown-trigger" aria-haspopup="true" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" resolved="" aria-controls="nav-recent-snippets" aria-expanded="false">
+        Snippets
+        <span class="aui-icon-dropdown"></span>
+      </a>
+      <nav id="nav-recent-snippets" class="aui-dropdown2 aui-style-default aui-layer" resolved="" aria-hidden="true">
+        <div id="snippet-dropdown-recent" class="aui-dropdown2-section" data-module="snippets/recent-list"></div>
+        <div class="aui-dropdown2-section">
+          <ul>
+            <li>
+              <a href="https://bitbucket.org/snippets/new" data-ct="header.snippets.dropdown.create">
+                Create snippet
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </li>
+  
+</ul>
+
+              </div>
+              <div class="aui-header-secondary">
+                
+  
+
+<ul role="menu" class="aui-nav" resolved="">
+  
+  <li>
+    <form action="https://bitbucket.org/repo/all" method="get" class="aui-quicksearch">
+      <label for="search-query" class="assistive">owner/repository</label>
+      <input id="search-query" class="bb-repo-typeahead" type="text" placeholder="Find a repository…" name="name" autocomplete="off" data-bb-typeahead-focus="false" title="( type / )">
+    </form>
+  </li>
+  <li>
+    <a id="help-menu-link" class="aui-nav-link" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" aria-controls="help-menu-dialog" data-aui-trigger="" aria-expanded="false" aria-haspopup="true" resolved="">
+      <span id="help-menu-icon" class="aui-icon aui-icon-small aui-iconfont-help"></span>
+    </a>
+  </li>
+  
+  
+    <li>
+      <a class="aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-haspopup="true" data-container="#header .aui-header-inner" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" title="VadimLysikov" id="user-dropdown-trigger" resolved="" aria-controls="user-dropdown" aria-expanded="false">
+        <div class="aui-avatar aui-avatar-small">
+            <div class="aui-avatar-inner">
+                <img src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/saved_resource" class="" data-src-url="https://bitbucket.org/account/VadimLysikov/avatar/32/?ts=1488639094" data-src-url-2x="https://bitbucket.org/account/VadimLysikov/avatar/64/?ts=1488639094" alt="Logged in as VadimLysikov" height="24" width="24">
+            </div>
+        </div>
+      </a>
+      <nav id="user-dropdown" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true" resolved="">
+        <div class="aui-dropdown2-section">
+          <div class="aid-profile">
+            <div class="aui-avatar aui-avatar-large">
+              <div class="aui-avatar-inner">
+
+                
+                  
+                
+
+                <a class="aid-profile--change-avatar hoverable" target="_blank" href="https://id.atlassian.com/profile/profile.action#edit-avatar">
+                  <span class="hoverable--overlay">
+                    <span class="aui-icon aui-icon-large aid-profile--avatar-icon"></span>
+                  </span>
+                  <img src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/saved_resource(1)" class="" data-src-url="https://bitbucket.org/account/VadimLysikov/avatar/48/?ts=1488639094" data-src-url-2x="https://bitbucket.org/account/VadimLysikov/avatar/96/?ts=1488639094" height="48" width="48">
+                </a>
+            </div>
+          </div>
+          <div class="aid-profile--info">
+            <div class="aid-profile--name">
+              Vadim Lysikov
+            </div>
+            <div class="aid-profile--email">
+              molstih@yandex.ru
+            </div>
+          </div>
+        </div>
+          
+            <ul>
+              <li>
+                <a href="https://id.atlassian.com/profile" id="account-link" target="_blank" data-ct="navbar.dropdown.manage_aid_account" title="( type g then a )">Manage Atlassian account</a>
+              </li>
+            </ul>
+          
+        </div>
+        <div class="aui-dropdown2-section">
+          <ul>
+            <li>
+              <a href="https://bitbucket.org/VadimLysikov/" id="profile-link">View profile</a>
+            </li>
+            <li>
+              <a href="https://bitbucket.org/account/user/VadimLysikov/" id="account-link" data-ct="navbar.dropdown.manage_account">Bitbucket settings</a>
+            </li>
+            <li>
+              <a href="https://bitbucket.org/account/user/VadimLysikov/addon-directory" id="account-addons" data-ct="navbar.dropdown.addons">Integrations</a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="aui-dropdown2-section">
+          <ul>
+            <li>
+              
+                <a href="https://id.atlassian.com/logout?continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignout%2F" id="log-out-link">Log out</a>
+              
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </li>
+    
+      <li id="nps-survey-container"></li>
+    
+  
+</ul>
+
+              </div>
+            </div>
+          </nav>
+        </header>
+      
+
+      
+  
+
+<header id="account-warning" role="banner" data-module="header/account-warning" class="aui-message-banner warning
+        ">
+  <div class="aui-message-banner-inner">
+    <span class="aui-icon aui-icon-warning"></span>
+    <span class="message">
+    
+    </span>
+  </div>
+</header>
+
+
+
+      
+  
+<header id="aui-message-bar">
+  
+</header>
+
+
+    <div id="content" role="main">
+      
+        
+  
+    <div class="aui-sidebar repo-sidebar" data-module="repo/sidebar">
+  <div class="aui-sidebar-wrapper aui-is-docked" style="height: 589px;">
+    <div class="aui-sidebar-body">
+      <header class="aui-page-header">
+        <div class="aui-page-header-inner">
+          <div class="aui-page-header-image">
+            <a href="https://bitbucket.org/ds-mms/marking" id="repo-avatar-link" class="repo-link">
+              <span class="aui-avatar aui-avatar-large aui-avatar-project">
+                <span class="aui-avatar-inner">
+                  <img src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/c_sharp.svg" alt="">
+                </span>
+              </span>
+            </a>
+          </div>
+          <div class="aui-page-header-main">
+            <h1>
+              
+                <span class="aui-icon aui-icon-small aui-iconfont-locked"></span>
+              
+              <a href="https://bitbucket.org/ds-mms/marking" title="marking" class="entity-name">marking</a>
+            </h1>
+          </div>
+        </div>
+      </header>
+      <nav class="aui-navgroup aui-navgroup-vertical">
+        <div class="aui-navgroup-inner">
+          
+            
+              <div class="aui-sidebar-group aui-sidebar-group-actions repository-actions forks-enabled can-create" aria-controls="sidebar-submenu0" data-aui-trigger="" resolved="">
+                <div class="aui-nav-heading">
+                  <strong>Actions</strong>
+                </div>
+                <ul id="repo-actions" class="aui-nav" resolved="">
+                  
+                  
+                    <li>
+                      <a id="repo-clone-button" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#clone" data-ct="sidebar.actions.repository.clone" data-ct-data="" data-module="components/clone/clone-dialog" target="_self">
+                        
+                          <span class="aui-icon aui-icon-large icon-clone"></span>
+                        
+                        <span class="aui-nav-item-label">Clone</span>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a id="repo-create-branch-link" class="aui-nav-item create-branch-button" href="https://bitbucket.org/ds-mms/marking/branch" data-ct="sidebar.actions.repository.create_branch" data-ct-data="" data-module="repo/create-branch" target="_self" title="( type x then b )">
+                        
+                          <span class="aui-icon aui-icon-large icon-create-branch"></span>
+                        
+                        <span class="aui-nav-item-label">Create branch</span>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a id="repo-create-pull-request-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/pull-requests/new" data-ct="sidebar.actions.create_pullrequest" data-ct-data="" target="_self" title="( type x then p )">
+                        
+                          <span class="aui-icon aui-icon-large icon-create-pull-request"></span>
+                        
+                        <span class="aui-nav-item-label">Create pull request</span>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a id="repo-compare-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/branches/compare" data-ct="sidebar.actions.repository.compare" data-ct-data="" target="_self" title="( type x then c )">
+                        
+                          <span class="aui-icon aui-icon-large aui-icon-small aui-iconfont-devtools-compare"></span>
+                        
+                        <span class="aui-nav-item-label">Compare</span>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a id="repo-fork-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/fork" data-ct="sidebar.actions.repository.fork" data-ct-data="" target="_self" title="( type x then f )">
+                        
+                          <span class="aui-icon aui-icon-large icon-fork"></span>
+                        
+                        <span class="aui-nav-item-label">Fork</span>
+                      </a>
+                    </li>
+                  
+                </ul>
+              </div>
+          
+          <div class="aui-sidebar-group aui-sidebar-group-tier-one repository-sections">
+            <div class="aui-nav-heading">
+              <strong>Navigation</strong>
+            </div>
+            <ul class="aui-nav" resolved="">
+              
+              
+                <li>
+                  <a id="repo-overview-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/overview" data-ct="sidebar.navigation.repository.overview" data-ct-data="" target="_self" title="( type r then o )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-overview"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Overview
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repo-source-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/src" data-ct="sidebar.navigation.repository.source" data-ct-data="" target="_self" title="( type r then s )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-source"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Source
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repo-commits-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/commits/" data-ct="sidebar.navigation.repository.commits" data-ct-data="" target="_self" title="( type r then c )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-commits"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Commits
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repo-branches-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/branches/" data-ct="sidebar.navigation.repository.branches" data-ct-data="" target="_self" title="( type r then b )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-branches"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Branches
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repo-pullrequests-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/pull-requests/" data-ct="sidebar.navigation.repository.pullrequests" data-ct-data="" target="_self" title="( type r then p )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-pull-requests"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Pull requests
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repopage-n7LeE-add-on-link" class="aui-nav-item aui-nav-item add-on-menu-item" href="https://bitbucket.org/ds-mms/marking/addon/pipelines-installer/home" data-ct="sidebar.navigation.site.addon" data-ct-data="{&quot;module_key&quot;: &quot;home&quot;, &quot;addon_key&quot;: &quot;pipelines-installer&quot;}" target="_self">
+                    
+                    
+                      <span class="aui-icon aui-icon-large aui-iconfont-build"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Pipelines
+                      
+                      
+                        
+                          <span class="aui-lozenge aui-lozenge-current">New</span>
+                        
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repo-issues-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/issues?status=new&amp;status=open" data-ct="sidebar.navigation.issues" data-ct-data="" target="_self" title=" ( type r then i )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-issues"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Issues
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li class="aui-nav-selected">
+                  <a id="repo-wiki-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/wiki/" data-ct="sidebar.navigation.repository.wiki" data-ct-data="" target="_self" title="( type r then w )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-wiki"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Wiki
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+                <li>
+                  <a id="repo-downloads-link" class="aui-nav-item " href="https://bitbucket.org/ds-mms/marking/downloads/" data-ct="sidebar.navigation.repository.downloads" data-ct-data="" target="_self" title="( type r then d )">
+                    
+                    
+                      <span class="aui-icon aui-icon-large icon-downloads"></span>
+                    
+                    <span class="aui-nav-item-label">
+                      Downloads
+                      
+                      
+                    </span>
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+          <div class="aui-sidebar-group aui-sidebar-group-tier-one repository-settings">
+            <div class="aui-nav-heading">
+              <strong class="assistive">Settings</strong>
+            </div>
+            <ul class="aui-nav" resolved="">
+              
+              
+            </ul>
+          </div>
+          
+            
+              <div class="hidden kb-shortcut-actions">
+                <a id="repo-create-issue" href="https://bitbucket.org/ds-mms/marking/issues/new" title="( type x then i )"></a>
+              </div>
+            
+          
+        </div>
+      </nav>
+    </div>
+    <div class="aui-sidebar-footer">
+      <a class="aui-sidebar-toggle aui-sidebar-footer-tipsy aui-button aui-button-subtle" resolved=""><span class="aui-icon"></span></a>
+    </div>
+  </div>
+  
+
+<div id="repo-clone-dialog" class="clone-dialog hidden">
+  
+
+
+
+
+
+  
+
+<div class="clone-url" data-module="components/clone/url-dropdown" data-owner="871268ba-f96d-4a14-9984-9092c13bb29d" data-location-context="header" data-fetch-url="https://VadimLysikov@bitbucket.org/ds-mms/marking.git" data-push-url="https://VadimLysikov@bitbucket.org/ds-mms/marking.git" data-resolved-mirrors="0">
+  <div class="aui-buttons">
+    
+    <button class="aui-button aui-dropdown2-trigger protocol-trigger" data-command-prefix="git clone" data-primary-https="https://VadimLysikov@bitbucket.org/ds-mms/marking.git" data-primary-ssh="git@bitbucket.org:ds-mms/marking.git" aria-controls="protocols-list-header" resolved="" aria-haspopup="true" aria-expanded="false" href="#">
+      <span class="dropdown-text">HTTPS</span>
+    </button>
+    <aui-dropdown-menu id="protocols-list-header" data-aui-alignment="bottom left" resolved="" role="menu" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true">
+        <div role="application">
+            <!-- content {"defaultContent":"","selector":null} -->
+      <aui-section id="protocols-list-section" class="aui-list-truncate aui-dropdown2-section" resolved="" role="presentation">
+        <strong aria-role="presentation" class="aui-dropdown2-heading"></strong>
+        <div role="group">
+            <!-- content {"defaultContent":"","selector":null} -->
+        <aui-item-radio class="item-link https" checked="" resolved=""><span role="radio" class="aui-dropdown2-radio checked aui-dropdown2-checked" tabindex="0" aria-checked="true" resolved=""><!-- content {"defaultContent":"","selector":null} -->HTTPS<!-- /content --></span></aui-item-radio>
+        <aui-item-radio class="item-link ssh" resolved=""><span role="radio" class="aui-dropdown2-radio" tabindex="0" resolved="" aria-checked="false"><!-- content {"defaultContent":"","selector":null} -->SSH<!-- /content --></span></aui-item-radio>
+      <!-- /content -->
+        </div>
+    </aui-section>
+    <!-- /content -->
+        </div>
+    </aui-dropdown-menu>
+    <input type="text" readonly="readonly" class="clone-url-input" value="git clone https://VadimLysikov@bitbucket.org/ds-mms/marking.git">
+  </div>
+  
+</div>
+
+  <div class="learn-more">
+    <p>Need help cloning? Learn how to
+         <a href="https://confluence.atlassian.com/x/4whODQ" target="_blank">clone a repository</a>.
+    </p>
+  </div>
+  
+  <div class="sourcetree-callout clone-in-sourcetree" data-module="components/clone/clone-in-sourcetree" data-https-url="https://VadimLysikov@bitbucket.org/ds-mms/marking.git" data-ssh-url="ssh://git@bitbucket.org/ds-mms/marking.git">
+
+  <div>
+    <button class="aui-button aui-button-primary" resolved="">
+      
+        Clone in SourceTree
+      
+    </button>
+  </div>
+
+  <p class="windows-text">
+    
+      <a href="http://www.sourcetreeapp.com/?utm_source=internal&amp;utm_medium=link&amp;utm_campaign=clone_repo_win" target="_blank">Atlassian SourceTree</a>
+      is a free Git and Mercurial client for Windows.
+    
+  </p>
+  <p class="mac-text">
+    
+      <a href="http://www.sourcetreeapp.com/?utm_source=internal&amp;utm_medium=link&amp;utm_campaign=clone_repo_mac" target="_blank">Atlassian SourceTree</a>
+      is a free Git and Mercurial client for Mac.
+    
+  </p>
+</div>
+</div>
+</div>
+  
+
+        
+  <div class="aui-page-panel ">
+    
+
+
+
+    <div class="aui-page-panel-inner">
+      <div id="repo-content" class="aui-page-panel-content" data-module="repo/index" data-project-id="1722326">
+        
+          
+            <ol class="aui-nav aui-nav-breadcrumbs" resolved="">
+              <li>
+  <a href="https://bitbucket.org/ds-mms/">DanSteel MMS </a>
+</li>
+
+  <li class="aui-nav-selected">
+    <a href="https://bitbucket.org/account/user/ds-mms/projects/MAIN">Main</a>
+  </li>
+
+<li>
+  <a href="https://bitbucket.org/ds-mms/marking">marking</a>
+</li>
+              
+            </ol>
+          
+          <div class="aui-group repo-page-header">
+            <div class="aui-item section-title">
+              <h1>Wiki</h1>
+            </div>
+            <div class="aui-item page-actions">
+              
+  
+    <a id="create-page-contextual" class="aui-button aui-button-subtle" href="https://bitbucket.org/ds-mms/marking/wiki/create" resolved="">
+      <span class="aui-icon aui-icon-small aui-iconfont-add"></span>
+      <span class="aui-button-label">Create page</span>
+    </a>
+  
+  <a id="clone-wiki-contextual" data-module="components/clone/clone-wiki-contextual" href="https://VadimLysikov@bitbucket.org/ds-mms/marking.git/wiki" class="aui-button aui-button-subtle" resolved="">
+    <span class="aui-icon aui-icon-small aui-iconfont-devtools-clone"></span>
+    Clone wiki
+  </a>
+  
+
+<div id="wiki-clone-dialog" class="clone-dialog hidden">
+  
+
+
+
+
+
+  
+  
+
+<div class="clone-url" data-module="components/clone/url-dropdown" data-owner="871268ba-f96d-4a14-9984-9092c13bb29d" data-location-context="wiki" data-fetch-url="https://VadimLysikov@bitbucket.org/ds-mms/marking.git/wiki" data-push-url="https://VadimLysikov@bitbucket.org/ds-mms/marking.git/wiki" data-clone-path="/wiki" data-resolved-mirrors="0">
+  <div class="aui-buttons">
+    
+    <button class="aui-button aui-dropdown2-trigger protocol-trigger" data-command-prefix="git clone" data-primary-https="https://VadimLysikov@bitbucket.org/ds-mms/marking.git/wiki" data-primary-ssh="git@bitbucket.org:ds-mms/marking.git/wiki" aria-controls="protocols-list-wiki" resolved="" aria-haspopup="true" aria-expanded="false" href="#">
+      <span class="dropdown-text">HTTPS</span>
+    </button>
+    <aui-dropdown-menu id="protocols-list-wiki" data-aui-alignment="bottom left" resolved="" role="menu" class="aui-dropdown2 aui-style-default aui-layer" aria-hidden="true">
+        <div role="application">
+            <!-- content {"defaultContent":"","selector":null} -->
+      <aui-section id="protocols-list-section" class="aui-list-truncate aui-dropdown2-section" resolved="" role="presentation">
+        <strong aria-role="presentation" class="aui-dropdown2-heading"></strong>
+        <div role="group">
+            <!-- content {"defaultContent":"","selector":null} -->
+        <aui-item-radio class="item-link https" checked="" resolved=""><span role="radio" class="aui-dropdown2-radio checked aui-dropdown2-checked" tabindex="0" aria-checked="true" resolved=""><!-- content {"defaultContent":"","selector":null} -->HTTPS<!-- /content --></span></aui-item-radio>
+        <aui-item-radio class="item-link ssh" resolved=""><span role="radio" class="aui-dropdown2-radio" tabindex="0" resolved="" aria-checked="false"><!-- content {"defaultContent":"","selector":null} -->SSH<!-- /content --></span></aui-item-radio>
+      <!-- /content -->
+        </div>
+    </aui-section>
+    <!-- /content -->
+        </div>
+    </aui-dropdown-menu>
+    <input type="text" readonly="readonly" class="clone-url-input" value="git clone https://VadimLysikov@bitbucket.org/ds-mms/marking.git/wiki">
+  </div>
+  
+</div>
+
+  <div class="learn-more">
+    <p>Need help cloning? Learn how to
+       <a href="https://confluence.atlassian.com/x/4whODQ" target="_blank">clone a repository</a>.
+    </p>
+  </div>
+  <div class="sourcetree-callout clone-in-sourcetree" data-module="components/clone/clone-in-sourcetree" data-https-url="https://VadimLysikov@bitbucket.org/ds-mms/marking.git" data-ssh-url="ssh://git@bitbucket.org/ds-mms/marking.git">
+
+  <div>
+    <button class="aui-button aui-button-primary" resolved="">
+      
+        Clone in SourceTree
+      
+    </button>
+  </div>
+
+  <p class="windows-text">
+    
+      <a href="http://www.sourcetreeapp.com/?utm_source=internal&amp;utm_medium=link&amp;utm_campaign=clone_repo_win" target="_blank">Atlassian SourceTree</a>
+      is a free Git and Mercurial client for Windows.
+    
+  </p>
+  <p class="mac-text">
+    
+      <a href="http://www.sourcetreeapp.com/?utm_source=internal&amp;utm_medium=link&amp;utm_campaign=clone_repo_mac" target="_blank">Atlassian SourceTree</a>
+      is a free Git and Mercurial client for Mac.
+    
+  </p>
+</div>
+</div>
+
+            </div>
+          </div>
+        
+        
+  <section id="wiki">
+    <header>
+      <h1>
+        
+
+<a href="https://bitbucket.org/ds-mms/marking/wiki/browse/" class="root">marking</a>
+/
+
+  
+    
+      <span class="file-name">Подключение к DanSteel через VPN - Windows 7</span>
+    
+  
+
+      </h1>
+      
+
+
+  <div class="wiki-toolbar">
+    <div class="aui-buttons">
+      <a href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207" class="aui-button" aria-pressed="true" resolved="">View</a>
+      <a href="https://bitbucket.org/ds-mms/marking/wiki/history/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207" class="aui-button history" resolved="">History</a>
+      
+        <a href="https://bitbucket.org/ds-mms/marking/wiki/edit/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207" class="aui-button edit" resolved="">Edit</a>
+      
+    </div>
+    
+      <div class="aui-buttons">
+        <a href="https://bitbucket.org/ds-mms/marking/wiki/delete/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207" class="aui-button delete" resolved="">Delete</a>
+      </div>
+    
+  </div>
+
+
+
+    </header>
+    
+      
+        <section id="wiki-content" class="wiki-content">
+          
+            <p>1) Проверить, что запущены и работают службы </p>
+<ul>
+<li>Агент политики IPSec</li>
+<li>Модули ключей IPsec для обмена ключами в Интернете и протокола IP с проверкой подлинности</li>
+</ul>
+<p>2) Создать VPN подключение:</p>
+<ul>
+<li>Центр управления сетями и общим доступом -&gt; Настройка нового подключения или сети -&gt; Подключение к рабочему месту -&gt; Далее</li>
+<li>Выбрать "Нет, создать новое подключение" (если уже есть у вас в системе VPN) -&gt; Далее</li>
+<li>Использовать мое подключение к Интернет -&gt; Далее</li>
+<li>Интернет-адрес: 87.116.25.18</li>
+<li>Имя местоназначения: DanSteel</li>
+<li>Далее</li>
+<li><strong>Пользователь:</strong> fusionsoft</li>
+<li><strong>Пароль:</strong> Fus123VPN</li>
+<li>Подключиться -&gt; Пропустить</li>
+</ul>
+<p>3) Настроить дополнительные параметры VPN-подключения:</p>
+<ul>
+<li>Центр управления сетями и общим доступом -&gt; Изменение параметров адаптера -&gt; Щелкнуть правой кнопкой мыши по созданному VPN-подключению -&gt; посмотреть, что все параметры выставлены, как на картинках:</li>
+</ul>
+<p><img alt="1.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/318315050-1.jpg">
+<img alt="2.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/2034679160-2.jpg">
+<img alt="3.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/2289084055-3.jpg">
+<img alt="4.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/1311489916-4.jpg">
+<img alt="5.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/1486705227-5.jpg"> 
+<img alt="6.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/3023612514-6.jpg">
+<img alt="7.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/2856909539-7.jpg"></p>
+<p>4) Активировать подключение (подключиться)</p>
+<p>5) Войти в командную строку, Win+R - cmd</p>
+<p>6) <em>ipconfig</em> - посмотреть ip-адрес VPN-подключения</p>
+<p>7) <em>route ADD 10.178.7.178 MASK 255.255.255.255 &lt;ip-адрес VPN подключения&gt;</em></p>
+<p>например, <em>route ADD 10.178.7.178 MASK 255.255.255.255 172.16.27.4</em> </p>
+<p>Можно использовать также .bat файл со следующим содержимым:</p>
+<div class="codehilite language-bat"><pre><span></span><span class="k">setlocal</span>
+<span class="k">for</span> <span class="k">/f</span> <span class="s2">"tokens=2 delims=:"</span> <span class="se">%%</span>i <span class="k">in</span> <span class="p">(</span><span class="s1">'ipconfig ^| find "172.16.27."'</span><span class="p">)</span> <span class="k">do</span> route add 10.178.7.0 mask 255.255.255.0 <span class="se">%%</span>i
+<span class="k">endlocal</span>
+<span class="k">setlocal</span>
+<span class="k">for</span> <span class="k">/f</span> <span class="s2">"tokens=2 delims=:"</span> <span class="se">%%</span>i <span class="k">in</span> <span class="p">(</span><span class="s1">'ipconfig ^| find "172.16.27."'</span><span class="p">)</span> <span class="k">do</span> route add 10.178.7.178 mask 255.255.255.255 <span class="se">%%</span>i
+<span class="k">endlocal</span>
+<span class="k">pause</span>
+</pre></div>
+
+
+<p>после выполнения команды по добавлению маршрута в командной строке должен быть ответ OK</p>
+<p>8) Запустить Удаленное подключение к рабочему столу</p>
+<ul>
+<li><strong>Компьютер:</strong> 10.178.7.178</li>
+<li><strong>Пользователь:</strong> пусто (потом введете)</li>
+<li>Подключить</li>
+<li>Другая учетная запись</li>
+<li><strong>Пользователь:</strong> Aonlmk\ds-a-mmsadm</li>
+<li><strong>Пароль:</strong> Jet7Kit9Adm</li>
+<li>Подключить</li>
+</ul>
+<p>появится окошко, нажать ДА</p>
+<p><img alt="8.jpg" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/2503204902-8.jpg"></p>
+<p>Подключение завершено</p>
+          
+        </section>
+      
+    
+
+    
+      <p class="revision-date">
+        
+          Updated <time datetime="2016-12-08T17:22:02+03:00" title="8 December 2016 17:22">2016-12-08</time>
+        
+      </p>
+    
+  </section>
+
+        
+        
+        
+          <script id="image-upload-template" type="text/html">
+  
+
+<form id="upload-image" method="POST"
+    
+      action="/xhr/ds-mms/marking/image-upload/"
+    >
+  <input type='hidden' name='csrfmiddlewaretoken' value='FFE8lmhTUwvvCN2IUPDDM61vAHa3ey3g' />
+
+  <div class="drop-target">
+    <p class="centered">Drag image here</p>
+  </div>
+
+  
+  <div>
+    <button class="aui-button click-target">Select an image</button>
+    <input name="file" type="file" class="hidden file-target"
+           accept="image/jpeg, image/gif, image/png" />
+    <input type="submit" class="hidden">
+  </div>
+</form>
+
+
+</script>
+        
+      </div>
+    </div>
+  </div>
+
+      </div>
+    </div>
+  
+
+  
+    <footer id="footer" role="contentinfo" data-module="components/footer">
+      <section class="footer-body">
+        
+  <ul>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="Blog" href="http://blog.bitbucket.org/" original-title="">Blog</a>
+  </li>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="Home" href="https://bitbucket.org/support" original-title="">Support</a>
+  </li>
+  <li>
+    <a class="support-ga" data-support-gaq-page="PlansPricing" href="https://bitbucket.org/plans" original-title="">Plans &amp; pricing</a>
+  </li>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="DocumentationHome" href="https://confluence.atlassian.com/display/BITBUCKET" original-title="">Documentation</a>
+  </li>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="DocumentationAPI" href="https://developer.atlassian.com/bitbucket/api/2/reference/" original-title="">API</a>
+  </li>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="SiteStatus" href="https://status.bitbucket.org/" original-title="">Site status</a>
+  </li>
+  <li>
+    <a class="support-ga" id="meta-info" data-support-gaq-page="MetaInfo" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" original-title="">Version info</a>
+  </li>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="EndUserAgreement" href="https://www.atlassian.com/legal/customer-agreement?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=footer" original-title="">Terms of service</a>
+  </li>
+  <li>
+    <a class="support-ga" target="_blank" data-support-gaq-page="PrivacyPolicy" href="https://www.atlassian.com/legal/privacy-policy" original-title="">Privacy policy</a>
+  </li>
+</ul>
+<div id="meta-info-content" style="display: none;">
+  <ul>
+    
+      <li><a href="https://bitbucket.org/account/user/VadimLysikov/" class="view-language-link" original-title="">English</a></li>
+    
+    <li>
+      <a class="support-ga" target="_blank" data-support-gaq-page="GitDocumentation" href="http://git-scm.com/" original-title="">Git 2.7.4.1.g5468f9e</a>
+    </li>
+    <li>
+      <a class="support-ga" target="_blank" data-support-gaq-page="HgDocumentation" href="https://www.mercurial-scm.org/" original-title="">Mercurial 3.9.2</a>
+    </li>
+    <li>
+      <a class="support-ga" target="_blank" data-support-gaq-page="DjangoDocumentation" href="https://www.djangoproject.com/" original-title="">Django 1.9.12</a>
+    </li>
+    <li>
+      <a class="support-ga" target="_blank" data-support-gaq-page="PythonDocumentation" href="http://www.python.org/" original-title="">Python 2.7.3</a>
+    </li>
+    <li>
+      <a class="support-ga" target="_blank" data-support-gaq-page="DeployedVersion" data-media-hex="35f3118819e9" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" original-title="">35f3118819e9 / 35f3118819e9 @ app-104</a>
+    </li>
+    <li>
+      <a class="support-ga" target="_blank" data-support-gaq-page="StorageRegion" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#" original-title="">Region production</a>
+    </li>
+  </ul>
+</div>
+<ul class="atlassian-links">
+  <li>
+    <a id="atlassian-jira-link" target="_blank" href="https://www.atlassian.com/software/jira/bitbucket-integration?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=bitbucket_footer" original-title="Track everything – bugs, tasks, deadlines, code – and pull reports to stay informed.">JIRA Software</a>
+  </li>
+  <li>
+    <a id="atlassian-confluence-link" target="_blank" href="http://www.atlassian.com/software/confluence/overview/team-collaboration-software?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=bitbucket_footer" original-title="Content Creation, Collaboration &amp; Knowledge Sharing for Teams.">Confluence</a>
+  </li>
+  <li>
+    <a id="atlassian-bamboo-link" target="_blank" href="http://www.atlassian.com/software/bamboo?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=bitbucket_footer" original-title="Continuous integration and deployment, release management.">Bamboo</a>
+  </li>
+  <li>
+    <a id="atlassian-sourcetree-link" target="_blank" href="http://www.sourcetreeapp.com/?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=bitbucket_footer" original-title="A free Git and Mercurial desktop client for Mac or Windows.">SourceTree</a>
+  </li>
+  <li>
+    <a id="atlassian-hipchat-link" target="_blank" href="http://www.hipchat.com/?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=bitbucket_footer" original-title="Group chat and IM built for teams.">HipChat</a>
+  </li>
+</ul>
+<div id="footer-logo">
+  <a target="_blank" href="http://www.atlassian.com/?utm_source=bitbucket&amp;utm_medium=logo&amp;utm_campaign=bitbucket_footer" original-title="Bitbucket is developed by Atlassian in Austin, San Francisco, and Sydney.">Atlassian</a>
+</div>
+
+      </section>
+    </footer>
+  
+</div>
+
+
+
+  
+
+<div data-module="components/mentions/index">
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+</div>
+<div data-module="components/typeahead/emoji/index">
+  
+    
+    
+  
+</div>
+
+<div data-module="components/repo-typeahead/index">
+  
+    
+    
+  
+</div>
+
+    
+    
+  
+
+    
+    
+  
+
+    
+    
+  
+
+    
+    
+  
+
+
+  <aui-inline-dialog id="help-menu-dialog" data-aui-alignment="bottom right" data-aui-alignment-static="true" data-module="header/help-menu" responds-to="toggle" aria-hidden="true" class="aui-layer" resolved=""><div class="aui-inline-dialog-contents">
+
+  <div id="help-menu-section">
+    <h1 class="help-menu-heading">Help</h1>
+
+    <form id="help-menu-search-form" class="aui" target="_blank" method="get" action="https://support.atlassian.com/customer/search">
+      <span id="help-menu-search-icon" class="aui-icon aui-icon-large aui-iconfont-search"></span>
+      <input id="help-menu-search-form-input" name="q" class="text" type="text" placeholder="Ask a question">
+    </form>
+
+    <ul id="help-menu-links">
+      <li>
+        <a class="support-ga" data-support-gaq-page="DocumentationHome" href="https://confluence.atlassian.com/x/bgozDQ" target="_blank">
+          Online help
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="GitTutorials" href="https://www.atlassian.com/git?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=help_dropdown&amp;utm_content=learn_git" target="_blank">
+          Learn Git
+        </a>
+      </li>
+      <li>
+        <a id="keyboard-shortcuts-link" href="https://bitbucket.org/ds-mms/marking/wiki/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20DanSteel%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20VPN%20-%20Windows%207#">Keyboard shortcuts</a>
+      </li>
+      <li>
+        <a href="https://bitbucket.org/whats-new/" id="features-link">
+          Latest features
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="DocumentationTutorials" href="https://confluence.atlassian.com/x/Q4sFLQ" target="_blank">
+          Bitbucket tutorials
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="SiteStatus" href="https://status.bitbucket.org/" target="_blank">
+          Site status
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="Home" href="https://bitbucket.org/support">
+          Support
+        </a>
+      </li>
+    </ul>
+  </div>
+</div></aui-inline-dialog>
+  
+
+
+  <div class="omnibar" data-module="components/omnibar/index">
+    <form class="omnibar-form aui"></form>
+  </div>
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+
+  
+
+  <div class="_mustache-templates">
+    
+      <script id="repo-dropdown-template" type="text/html">
+        
+
+
+[[#hasViewed]]
+  <div class="aui-dropdown2-section">
+    <strong class="viewed">Recently viewed</strong>
+    <ul>
+      [[#viewed]]
+        <li class="[[#is_private]]private[[/is_private]][[^is_private]]public[[/is_private]] repository">
+          <a href="[[url]]" title="[[owner]][[#project]] / [[project]][[/project]] / [[name]]" class="aui-icon-container recently-viewed repo-link"
+              data-ct="header.repository.dropdown.repository" data-ct-data='{"type": "recently-viewed"}'>
+            <span class="aui-avatar aui-avatar-xsmall aui-avatar-project">
+              <span class="aui-avatar-inner">
+                <img src="[[{avatar}]]">
+              </span>
+            </span>
+            <span class="dropdown-path">
+              <span class="dropdown-path-part">[[#project]][[project]][[/project]][[^project]][[owner]][[/project]]</span>
+              <span class="dropdown-path-separator">/</span>
+              <span class="dropdown-path-part dropdown-path-part--primary">[[name]]</span>
+            </span>
+          </a>
+        </li>
+      [[/viewed]]
+    </ul>
+  </div>
+[[/hasViewed]]
+[[#hasUpdated]]
+  <div class="aui-dropdown2-section">
+    <strong class="updated">Recently updated</strong>
+    <ul>
+      [[#updated]]
+      <li class="[[#is_private]]private[[/is_private]][[^is_private]]public[[/is_private]] repository">
+        <a href="[[url]]" title="[[owner]][[#project]] / [[project]][[/project]] / [[name]]" class="aui-icon-container recently-updated repo-link"
+           data-ct="header.repository.dropdown.repository" data-ct-data='{"type": "recently-updated"}'>
+          <span class="aui-avatar aui-avatar-xsmall aui-avatar-project">
+            <span class="aui-avatar-inner">
+              <img src="[[{avatar}]]">
+            </span>
+          </span>
+          <span class="dropdown-path">
+            <span class="dropdown-path-part">[[#project]][[project]][[/project]][[^project]][[owner]][[/project]]</span>
+            <span class="dropdown-path-separator">/</span>
+            <span class="dropdown-path-part dropdown-path-part--primary">[[name]]</span>
+          </span>
+        </a>
+      </li>
+      [[/updated]]
+    </ul>
+  </div>
+[[/hasUpdated]]
+
+      </script>
+    
+      <script id="snippet-dropdown-template" type="text/html">
+        <div class="aui-dropdown2-section">
+  <strong>[[sectionTitle]]</strong>
+  <ul class="aui-list-truncate">
+    [[#snippets]]
+      <li>
+        <a href="[[links.html.href]]">[[owner.display_name]] / [[name]]</a>
+      </li>
+    [[/snippets]]
+  </ul>
+</div>
+
+      </script>
+    
+      <script id="team-dropdown-template" type="text/html">
+        
+
+<div class="aui-dropdown2-section primary">
+  <ul class="aui-list-truncate">
+    [[#teams]]
+      <li>
+        <a href="/[[username]]/" class="aui-icon-container team-link" data-ct="header.team.dropdown.team">
+          <span class="aui-avatar aui-avatar-xsmall">
+            <span class="aui-avatar-inner">
+              <img src="[[avatar]]">
+            </span>
+          </span>
+          [[display_name]]
+        </a>
+      </li>
+    [[/teams]]
+  </ul>
+</div>
+
+<div class="aui-dropdown2-section">
+  <ul>
+    <li>
+      <a href="/account/create-team/?team_source=header"
+          id="create-team-link" data-ct="header.team.dropdown.create" data-ct-data='{"empty": false}'>Create team</a>
+    </li>
+  </ul>
+</div>
+
+      </script>
+    
+      <script id="projects-dropdown-template" type="text/html">
+        
+
+[[#hasProjects]]
+  <div class="aui-dropdown2-section">
+    <strong>Recently viewed</strong>
+    <ul class="aui-list-truncate">
+      [[#projects]]
+        <li>
+          <a href="/account/user/[[owner.username]]/projects/[[key]]" class="aui-icon-container project-link">
+            <span class="aui-avatar aui-avatar-xsmall aui-avatar-project">
+              <span class="aui-avatar-inner">
+                <img src="[[links.avatar.href]]">
+              </span>
+            </span>
+            [[name]]
+          </a>
+        </li>
+      [[/projects]]
+    </ul>
+  </div>
+[[/hasProjects]]
+
+[[#isAdmin]]
+  <div class="aui-dropdown2-section">
+    <ul>
+      <li>
+        <a href="/account/projects/create"
+            id="create-project-link">Create project</a>
+      </li>
+    </ul>
+  </div>
+[[/isAdmin]]
+
+      </script>
+    
+      <script id="mention-result" type="text/html">
+        
+<span class="mention-result">
+  <span class="aui-avatar aui-avatar-small mention-result--avatar">
+    <span class="aui-avatar-inner">
+      <img src="[[avatar_url]]">
+    </span>
+  </span>
+  [[#display_name]]
+    <span class="display-name mention-result--display-name">[[&display_name]]</span> <small class="username mention-result--username">[[&username]]</small>
+  [[/display_name]]
+  [[^display_name]]
+    <span class="username mention-result--username">[[&username]]</span>
+  [[/display_name]]
+  [[#is_teammate]][[^is_team]]
+    <span class="aui-lozenge aui-lozenge-complete aui-lozenge-subtle mention-result--lozenge">teammate</span>
+  [[/is_team]][[/is_teammate]]
+</span>
+      </script>
+    
+      <script id="mention-call-to-action" type="text/html">
+        
+[[^query]]
+<li class="bb-typeahead-item">Begin typing to search for a user</li>
+[[/query]]
+[[#query]]
+<li class="bb-typeahead-item">Continue typing to search for a user</li>
+[[/query]]
+
+      </script>
+    
+      <script id="mention-no-results" type="text/html">
+        
+[[^searching]]
+<li class="bb-typeahead-item">Found no matching users for <em>[[query]]</em>.</li>
+[[/searching]]
+[[#searching]]
+<li class="bb-typeahead-item bb-typeahead-searching">Searching for <em>[[query]]</em>.</li>
+[[/searching]]
+
+      </script>
+    
+      <script id="emoji-result" type="text/html">
+        
+<div class="aui-avatar aui-avatar-small">
+  <div class="aui-avatar-inner">
+    <img src="[[src]]">
+  </div>
+</div>
+<span class="name">[[&name]]</span>
+
+      </script>
+    
+      <script id="repo-typeahead-result" type="text/html">
+        <span class="aui-avatar aui-avatar-project aui-avatar-xsmall">
+  <span class="aui-avatar-inner">
+    <img src="[[avatar]]">
+  </span>
+</span>
+<span class="owner">[[&owner]]</span>/<span class="slug">[[&slug]]</span>
+
+      </script>
+    
+      <script id="share-form-template" type="text/html">
+        
+
+<div class="error aui-message hidden">
+  <span class="aui-icon icon-error"></span>
+  <div class="message"></div>
+</div>
+<form class="aui">
+  <table class="widget bb-list aui">
+    <thead>
+    <tr class="assistive">
+      <th class="user">User</th>
+      <th class="role">Role</th>
+      <th class="actions">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr class="form">
+        <td colspan="2">
+          <input type="text" class="text bb-user-typeahead user-or-email"
+                 placeholder="Username or email address"
+                 autocomplete="off"
+                 data-bb-typeahead-focus="false"
+                 [[#disabled]]disabled[[/disabled]]>
+        </td>
+        <td class="actions">
+          <button type="submit" class="aui-button aui-button-light" disabled>Add</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+
+      </script>
+    
+      <script id="share-detail-template" type="text/html">
+        
+
+[[#username]]
+<td class="user
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]"
+    [[#error]]data-error="[[error]]"[[/error]]>
+  <div title="[[displayName]]">
+    <a href="/[[username]]/" class="user">
+      <span class="aui-avatar aui-avatar-xsmall">
+        <span class="aui-avatar-inner">
+          <img src="[[avatar]]">
+        </span>
+      </span>
+      <span>[[displayName]]</span>
+    </a>
+  </div>
+</td>
+[[/username]]
+[[^username]]
+<td class="email
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]"
+    [[#error]]data-error="[[error]]"[[/error]]>
+  <div title="[[email]]">
+    <span class="aui-icon aui-icon-small aui-iconfont-email"></span>
+    [[email]]
+  </div>
+</td>
+[[/username]]
+<td class="role
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]">
+  <div>
+    [[#group]]
+      [[#hasCustomGroups]]
+        <select class="group [[#noGroupChoices]]hidden[[/noGroupChoices]]">
+          [[#groups]]
+            <option value="[[slug]]"
+                [[#isSelected]]selected[[/isSelected]]>
+              [[name]]
+            </option>
+          [[/groups]]
+        </select>
+      [[/hasCustomGroups]]
+      [[^hasCustomGroups]]
+      <label>
+        <input type="checkbox" class="admin"
+            [[#isAdmin]]checked[[/isAdmin]]>
+        Administrator
+      </label>
+      [[/hasCustomGroups]]
+    [[/group]]
+    [[^group]]
+      <ul>
+        <li class="permission aui-lozenge aui-lozenge-complete
+            [[^read]]aui-lozenge-subtle[[/read]]"
+            data-permission="read">
+          read
+        </li>
+        <li class="permission aui-lozenge aui-lozenge-complete
+            [[^write]]aui-lozenge-subtle[[/write]]"
+            data-permission="write">
+          write
+        </li>
+        <li class="permission aui-lozenge aui-lozenge-complete
+            [[^admin]]aui-lozenge-subtle[[/admin]]"
+            data-permission="admin">
+          admin
+        </li>
+      </ul>
+    [[/group]]
+  </div>
+</td>
+<td class="actions
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]">
+  <div>
+    <a href="#" class="delete">
+      <span class="aui-icon aui-icon-small aui-iconfont-remove">Delete</span>
+    </a>
+  </div>
+</td>
+
+      </script>
+    
+      <script id="share-team-template" type="text/html">
+        
+
+<div class="clearfix">
+  <span class="team-avatar-container">
+    <span class="aui-avatar aui-avatar-medium">
+      <span class="aui-avatar-inner">
+        <img src="[[avatar]]">
+      </span>
+    </span>
+  </span>
+  <span class="team-name-container">
+    [[display_name]]
+  </span>
+</div>
+<p class="helptext">
+  
+    Existing users are granted access to this team immediately.
+    New users will be sent an invitation.
+  
+</p>
+<div class="share-form"></div>
+
+      </script>
+    
+      <script id="scope-list-template" type="text/html">
+        <ul class="scope-list">
+  [[#scopes]]
+    <li class="scope-list--item">
+      <span class="scope-list--icon aui-icon aui-icon-small [[icon]]"></span>
+      <span class="scope-list--description">[[description]]</span>
+    </li>
+  [[/scopes]]
+</ul>
+
+      </script>
+    
+      <script id="omnibar-form-template" type="text/html">
+        <div class="omnibar-input-container">
+  <input class="omnibar-input" type="text" [[#placeholder]]placeholder="[[placeholder]]"[[/placeholder]]>
+</div>
+<ul class="omnibar-result-group-list"></ul>
+
+      </script>
+    
+      <script id="omnibar-blank-slate-template" type="text/html">
+        
+
+<div class="omnibar-blank-slate">No results found</div>
+
+      </script>
+    
+      <script id="omnibar-result-group-list-item-template" type="text/html">
+        <div class="omnibar-result-group-header clearfix">
+  <h2 class="omnibar-result-group-label" title="[[label]]">[[label]]</h2>
+  <span class="omnibar-result-group-context" title="[[context]]">[[context]]</span>
+</div>
+<ul class="omnibar-result-list unstyled-list"></ul>
+
+      </script>
+    
+      <script id="omnibar-result-list-item-template" type="text/html">
+        [[#url]]
+  <a href="[[&url]]" class="omnibar-result-label">[[&label]]</a>
+[[/url]]
+[[^url]]
+  <span class="omnibar-result-label">[[&label]]</span>
+[[/url]]
+[[#context]]
+  <span class="omnibar-result-context">[[context]]</span>
+[[/context]]
+
+      </script>
+    
+  </div>
+
+
+
+
+  
+    <script src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/djangojs.js.Без названия"></script>
+<script src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/common.js.Без названия"></script>
+<script src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/wiki.js.Без названия"></script>
+  
+
+
+<script async="" src="./ds-mms _ marking _ wiki _ Подключение к DanSteel через VPN - Windows 7 — Bitbucket_files/analytics.js.Без названия"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"a2cef8c3d3","agent":"","transactionName":"Z11RZxdWW0cEVkYLDV4XdUYLVEFdClsdAAtEWkZQDlJBGgRFQhFMR1FYWktBXFESRggVC1tR","applicationID":"1841284","errorBeacon":"bam.nr-data.net","applicationTime":175}</script>
+
+
+<aui-inline-dialog class="aui-layer aui-sidebar-submenu-dialog" resolved="" id="sidebar-submenu0" alignment="right top" aria-hidden="true"><div class="aui-inline-dialog-contents"></div></aui-inline-dialog><div class="bb-typeahead-suggestions aui-dropdown2 aui-style-default aui-layer aui-dropdown2-tailed bb-mention-input-results" id="bb-typeahead-suggestions-6" style="z-index: 5000;" resolved="" aria-hidden="true"><ul></ul></div><div class="caret-marker aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-haspopup="true" resolved="" aria-controls="bb-typeahead-suggestions-6" aria-expanded="false" href="#"></div><div class="bb-typeahead-suggestions aui-dropdown2 aui-style-default aui-layer" id="bb-typeahead-suggestions-9" style="z-index: 5000;" resolved="" aria-hidden="true"><ul></ul></div><div class="caret-marker aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-haspopup="true" resolved="" aria-controls="bb-typeahead-suggestions-9" aria-expanded="false" href="#"></div><div class="bb-typeahead-suggestions aui-dropdown2 aui-style-default aui-layer" id="bb-typeahead-suggestions-12" style="z-index: 5000;" resolved="" aria-hidden="true"><ul></ul></div><div class="caret-marker aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-haspopup="true" resolved="" aria-controls="bb-typeahead-suggestions-12" aria-expanded="false" href="#"></div><div class="bb-typeahead-suggestions aui-dropdown2 aui-style-default aui-layer aui-dropdown2-tailed bb-mention-input-results" id="bb-typeahead-suggestions-15" style="z-index: 5000;" resolved="" aria-hidden="true"><ul></ul></div><div class="caret-marker aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-haspopup="true" resolved="" aria-controls="bb-typeahead-suggestions-15" aria-expanded="false" href="#"></div><div class="bb-typeahead-suggestions aui-dropdown2 aui-style-default aui-layer" id="bb-typeahead-suggestions-20" style="z-index: 5000;" resolved="" aria-hidden="true"><ul></ul></div><div class="caret-marker aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" aria-haspopup="true" resolved="" aria-controls="bb-typeahead-suggestions-20" aria-expanded="false" href="#"></div></body></html>
